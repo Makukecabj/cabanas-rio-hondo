@@ -1,0 +1,452 @@
+window.__CONFIG = {
+  "business": {
+    "name": "Cabañas Río Hondo",
+    "short_name": "Cabañas Río Hondo",
+    "tagline": "Cabañas Río Hondo - Santiago",
+    "description": "Cabañas Río Hondo: pileta, parrilla, WiFi y la mejor ubicación en Santiago.",
+    "category": "Hospedaje",
+    "followers": 0
+  },
+  "hero": {
+    "video": "videos/city-video.mp4",
+    "poster": "fotos/foto-01.webp",
+    "eyebrow": "Santiago · RP333",
+    "title_line1": "Viví",
+    "title_em": "Cabañas Río Hondo",
+    "title_line2": "desde acá",
+    "subtitle": "Habitaciones limpias, pileta, parrilla y buena onda."
+  },
+  "location": {
+    "address": "RP333, G4220 Termas de Río Hondo, Santiago del Estero",
+    "district": "Santiago",
+    "city": "Santiago",
+    "province": "",
+    "country": "Chile",
+    "destination_type": "city",
+    "map_query": "RP333, G4220 Termas de Río Hondo, Santiago del Estero, Santiago",
+    "map_embed": "https://maps.google.com/maps?q=RP333%2C+G4220+Termas+de+R%C3%ADo+Hondo%2C+Santiago+del+Estero%2C+Santiago&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "description": "Santiago. Todo lo que querés conocer queda cerca.",
+    "video": "videos/city-video.mp4"
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/5493813009166",
+    "phone": "+5493813009166",
+    "email": ""
+  },
+  "social": {
+    "instagram": "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+    "place_url": "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+    "website": "",
+    "facebook": "",
+    "tiktok": ""
+  },
+  "about": {
+    "eyebrow": "Te contamos",
+    "title": "Así es Cabañas Río Hondo.",
+    "paragraphs": [
+      "Cabañas Río Hondo es un hostel familiar en Santiago, atendido por sus dueños. Ofrecemos habitaciones privadas y compartidas, WiFi, cocina equipada, pileta y parrilla. Estamos en zona centro, cerca de todo lo que necesitás para recorrer la ciudad."
+    ],
+    "photos": [
+      {
+        "src": "fotos/foto-02.webp",
+        "alt": "Interior del hostel"
+      },
+      {
+        "src": "fotos/foto-03.webp",
+        "alt": "Espacios comunes"
+      }
+    ]
+  },
+  "trust_bar": [
+    "Consultas al instante por WhatsApp",
+    "El precio que ves es el que pagás",
+    "Te recomendamos los mejores lugares de la zona"
+  ],
+  "amenities": [
+    {
+      "key": "bed",
+      "title": "Camas que invitan a quedarse",
+      "description": "Descansá bien para mañana seguir recorriendo.",
+      "icon": "bed"
+    },
+    {
+      "key": "wifi",
+      "title": "Internet rápido y gratis",
+      "description": "Para subir historias y mandar ubicación a los pingos.",
+      "icon": "wifi"
+    },
+    {
+      "key": "pin",
+      "title": "En el corazón de la zona",
+      "description": "Todo cerca, nada de gastar en taxis.",
+      "icon": "pin"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Joaquín H.",
+      "rating": 5,
+      "text": "Excelente lugar para descansar después de recorrer. Recomendadísimo, volvemos seguro."
+    },
+    {
+      "author": "Federico T.",
+      "rating": 4,
+      "text": "Hermosa experiencia. Cómodo, bien ubicado y con una atención que se nota hecha con cariño."
+    },
+    {
+      "author": "Carolina R.",
+      "rating": 5,
+      "text": "Súper recomendable. Te sentís como en casa desde el primer momento. Volveremos sin dudas."
+    },
+    {
+      "author": "Martín G.",
+      "rating": 5,
+      "text": "Fuimos con amigos y quedamos encantados. Limpio, cómodo y la onda del lugar espectacular."
+    }
+  ],
+  "testimonials_meta": {
+    "source": "demo"
+  },
+  "gallery": {
+    "images": [
+      {
+        "src": "fotos/foto-01.webp",
+        "alt": "Vista del alojamiento"
+      },
+      {
+        "src": "fotos/foto-02.webp",
+        "alt": "Interior del hostel"
+      },
+      {
+        "src": "fotos/foto-03.webp",
+        "alt": "Espacios comunes"
+      },
+      {
+        "src": "fotos/foto-04.webp",
+        "alt": "Zona de descanso"
+      },
+      {
+        "src": "fotos/foto-05.webp",
+        "alt": "Pileta y jardín"
+      },
+      {
+        "src": "fotos/foto-06.webp",
+        "alt": "Cocina del hostel"
+      },
+      {
+        "src": "fotos/foto-07.webp",
+        "alt": "Habitaciones"
+      },
+      {
+        "src": "fotos/foto-08.webp",
+        "alt": "Terraza"
+      },
+      {
+        "src": "fotos/foto-09.webp",
+        "alt": "Entrada principal"
+      },
+      {
+        "src": "fotos/foto-10.webp",
+        "alt": "Áreas verdes"
+      },
+      {
+        "src": "fotos/foto-11.webp",
+        "alt": "Comedor"
+      },
+      {
+        "src": "fotos/foto-12.webp",
+        "alt": "Living común"
+      }
+    ],
+    "videos": []
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "amount": "Consultar",
+    "period": "SEGÚN TEMPORADA",
+    "title": "Escribinos y te enviamos los precios actualizados según fechas.",
+    "cta_text": "Consultar precios"
+  },
+  "faq": [
+    {
+      "question": "¿Cómo reservo?",
+      "answer": "Mandanos un WhatsApp o un mail y te confirmamos al toque. Sin vueltas."
+    },
+    {
+      "question": "¿Tienen WiFi?",
+      "answer": "Sí, WiFi gratis en todo el lugar. Subí las fotos sin problema."
+    },
+    {
+      "question": "¿Hay pileta?",
+      "answer": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
+    },
+    {
+      "question": "¿La zona es segura?",
+      "answer": "Sí, es una zona tranquila. Los viajeros la recomiendan."
+    },
+    {
+      "question": "¿Cómo me muevo por la ciudad?",
+      "answer": "Te contamos cómo llegar, qué transporte conviene y qué visitar cuando nos escribas."
+    }
+  ],
+  "footer": {
+    "description": "Cabañas Río Hondo",
+    "copyright": "© 2026 Cabañas Río Hondo. Todos los derechos reservados.",
+    "made_by": "Sitio hecho por Aizly"
+  },
+  "i18n": {
+    "en": {
+      "business": {
+        "name": "Cabañas Río Hondo",
+        "short_name": "Cabañas Río Hondo",
+        "tagline": "Cabañas Río Hondo - Accommodation",
+        "description": "Your base at Cabañas Río Hondo to explore Santiago.",
+        "category": "Accommodation"
+      },
+      "hero": {
+        "video": "videos/city-video.mp4",
+        "poster": "fotos/foto-01.webp",
+        "eyebrow": "Santiago · RP333",
+        "title_line1": "Your home in",
+        "title_em": "Cabañas Río Hondo",
+        "title_line2": "",
+        "subtitle": "Comfortable accommodation in Santiago for travelers like you."
+      },
+      "about": {
+        "eyebrow": "A bit about us",
+        "title": "Let us tell you about Cabañas Río Hondo.",
+        "paragraphs": [
+          "Cabañas Río Hondo is your base in Santiago. Pool, BBQ, WiFi, kitchen and an ideal location to explore everything. We're a family hostel with all the vibes you need to travel easy."
+        ],
+        "photos": [
+          {
+            "src": "fotos/foto-02.webp",
+            "alt": "Interior del hostel"
+          },
+          {
+            "src": "fotos/foto-03.webp",
+            "alt": "Espacios comunes"
+          }
+        ]
+      },
+      "location": {
+        "description": "Santiago. Great location to explore the area."
+      },
+      "gallery": {
+        "images": [
+          {
+            "src": "fotos/foto-01.webp",
+            "alt": "View of the property"
+          },
+          {
+            "src": "fotos/foto-02.webp",
+            "alt": "Inside the hostel"
+          },
+          {
+            "src": "fotos/foto-03.webp",
+            "alt": "Common areas"
+          },
+          {
+            "src": "fotos/foto-04.webp",
+            "alt": "Relaxation area"
+          },
+          {
+            "src": "fotos/foto-05.webp",
+            "alt": "Pool and garden"
+          },
+          {
+            "src": "fotos/foto-06.webp",
+            "alt": "Hostel kitchen"
+          },
+          {
+            "src": "fotos/foto-07.webp",
+            "alt": "Rooms"
+          },
+          {
+            "src": "fotos/foto-08.webp",
+            "alt": "Terrace"
+          },
+          {
+            "src": "fotos/foto-09.webp",
+            "alt": "Main entrance"
+          },
+          {
+            "src": "fotos/foto-10.webp",
+            "alt": "Green areas"
+          },
+          {
+            "src": "fotos/foto-11.webp",
+            "alt": "Dining room"
+          },
+          {
+            "src": "fotos/foto-12.webp",
+            "alt": "Common lounge"
+          }
+        ]
+      },
+      "pricing": {
+        "eyebrow": "Prices",
+        "amount": "Ask us",
+        "period": "Varies by season",
+        "title": "Message us for updated prices based on your dates.",
+        "cta_text": "Check prices"
+      },
+      "faq": [
+        {
+          "question": "Is there air conditioning?",
+          "answer": "Yes, you'll stay cool in summer no problem."
+        },
+        {
+          "question": "Is there a pool?",
+          "answer": "Yes! In summer it's the best spot to cool off after sightseeing."
+        },
+        {
+          "question": "Is there WiFi?",
+          "answer": "Yep, free WiFi everywhere. Upload your stories without worry."
+        },
+        {
+          "question": "Is there heating?",
+          "answer": "Yes, we keep it warm in winter. Don't worry about the cold."
+        },
+        {
+          "question": "Is it close to downtown?",
+          "answer": "Message us and we'll confirm the exact distance and how to get here from the bus station or airport."
+        }
+      ],
+      "trust_bar": [
+        "Updated availability in real time",
+        "No Booking.com commissions",
+        "We help you plan your trip"
+      ],
+      "amenities": [
+        {
+          "title": "Comfortable rooms",
+          "description": "Everything you need to rest after a day of exploring.",
+          "icon": "bed"
+        },
+        {
+          "title": "Free WiFi",
+          "description": "Internet everywhere on the property.",
+          "icon": "wifi"
+        },
+        {
+          "title": "Great location",
+          "description": "Steps away from everything you need.",
+          "icon": "pin"
+        }
+      ],
+      "testimonials": [
+        {
+          "author": "Sofia R.",
+          "rating": 5,
+          "text": "The best choice of our whole trip. Spotless and the staff make you feel so welcome."
+        },
+        {
+          "author": "Sarah K.",
+          "rating": 5,
+          "text": "Amazing hospitality from the moment we arrived. Great location and such a warm vibe."
+        },
+        {
+          "author": "Laura C.",
+          "rating": 5,
+          "text": "Traveled solo and felt super safe. Met great people and enjoyed every minute."
+        },
+        {
+          "author": "Lucas P.",
+          "rating": 4,
+          "text": "Great value and personalized attention you don't find anywhere else."
+        }
+      ],
+      "footer": {
+        "description": "Cabañas Río Hondo",
+        "copyright": "© 2026 Cabañas Río Hondo. All rights reserved.",
+        "made_by": "Site by Aizly"
+      }
+    }
+  },
+  "schema_ld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LodgingBusiness",
+        "name": "Cabañas Río Hondo",
+        "description": "Habitaciones cómodas y buena onda en Cabañas Río Hondo, Santiago.",
+        "url": "",
+        "telephone": "+5493813009166",
+        "email": "",
+        "image": "",
+        "sameAs": [
+          "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "RP333, G4220 Termas de Río Hondo, Santiago del Estero",
+          "addressLocality": "Santiago",
+          "addressCountry": "CL"
+        },
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Camas que invitan a quedarse",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Internet rápido y gratis",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "En el corazón de la zona",
+            "value": true
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cómo reservo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mandanos un WhatsApp o un mail y te confirmamos al toque. Sin vueltas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Tienen WiFi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, WiFi gratis en todo el lugar. Subí las fotos sin problema."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay pileta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿La zona es segura?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, es una zona tranquila. Los viajeros la recomiendan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo me muevo por la ciudad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Te contamos cómo llegar, qué transporte conviene y qué visitar cuando nos escribas."
+            }
+          }
+        ]
+      }
+    ]
+  }
+};
