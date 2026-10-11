@@ -218,32 +218,32 @@
   },
   "faq": [
     {
-      "question": "¿Están abiertos todo el año?",
+      "question": "¿Estamos abiertos todo el año?",
       "answer": "Sí, estamos abiertos todo el año."
     },
     {
       "question": "¿Qué incluye cada cabaña?",
-      "answer": "Dos habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
+      "answer": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
     },
     {
-      "question": "¿Tienen agua termal?",
-      "answer": "Sí. La cabaña tiene agua termal y bañera termal, además de la pileta con agua templada."
+      "question": "¿Tenemos agua termal?",
+      "answer": "Sí. Cada cabaña tiene agua termal y bañera termal, además de la pileta con agua templada."
     },
     {
-      "question": "¿Hay WiFi?",
+      "question": "¿Tenemos WiFi?",
       "answer": "Sí, Starlink gratis en todo el complejo."
     },
     {
-      "question": "¿Aceptan mascotas?",
-      "answer": "Sí, se aceptan mascotas."
+      "question": "¿Aceptamos mascotas?",
+      "answer": "Sí, aceptamos mascotas."
     },
     {
-      "question": "¿Incluye toallas?",
+      "question": "¿Incluimos toallas?",
       "answer": "La ropa de cama está incluida. No entregamos toallas, te pedimos que traigas las tuyas."
     },
     {
-      "question": "¿Dónde queda y qué hay cerca?",
-      "answer": "En El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo."
+      "question": "¿Dónde estamos y qué hay cerca?",
+      "answer": "Estamos en El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo."
     }
   ],
   "footer": {
@@ -369,27 +369,27 @@
         },
         {
           "question": "What's included in each cabin?",
-          "answer": "Two bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes."
+          "answer": "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes."
         },
         {
-          "question": "Is there thermal water?",
-          "answer": "Yes. The cabin has thermal water and a thermal bath, plus a warm-water pool."
+          "question": "Do you have thermal water?",
+          "answer": "Yes. Each cabin has thermal water and a thermal bath, plus a warm-water pool."
         },
         {
-          "question": "Is there WiFi?",
+          "question": "Do you have WiFi?",
           "answer": "Yes, free Starlink throughout the complex."
         },
         {
-          "question": "Are pets allowed?",
-          "answer": "Yes, pets are welcome."
+          "question": "Do you accept pets?",
+          "answer": "Yes, we accept pets."
         },
         {
           "question": "Are towels provided?",
           "answer": "Bed linens are included. We don't provide towels, so please bring your own."
         },
         {
-          "question": "Where are you located?",
-          "answer": "In El Manantial, two blocks from the lake and the fishing area, 5 km from downtown and 2 km from the race track."
+          "question": "Where are you located and what's nearby?",
+          "answer": "We're in El Manantial, two blocks from the lake and the fishing area, 5 km from downtown and 2 km from the race track."
         }
       ],
       "testimonials": [
@@ -553,6 +553,16 @@
             "@type": "LocationFeatureSpecification",
             "name": "Apto mascotas",
             "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Calefacción por piso radiante",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Aire acondicionado frío/calor",
+            "value": true
           }
         ]
       },
@@ -572,7 +582,7 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "¿Están abiertos todo el año?",
+            "name": "¿Estamos abiertos todo el año?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Sí, estamos abiertos todo el año."
@@ -583,20 +593,20 @@
             "name": "¿Qué incluye cada cabaña?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Dos habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
+              "text": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Tienen agua termal?",
+            "name": "¿Tenemos agua termal?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí. La cabaña tiene agua termal y bañera termal, además de la pileta con agua templada."
+              "text": "Sí. Cada cabaña tiene agua termal y bañera termal, además de la pileta con agua templada."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Hay WiFi?",
+            "name": "¿Tenemos WiFi?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Sí, Starlink gratis en todo el complejo."
@@ -604,15 +614,15 @@
           },
           {
             "@type": "Question",
-            "name": "¿Aceptan mascotas?",
+            "name": "¿Aceptamos mascotas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí, se aceptan mascotas."
+              "text": "Sí, aceptamos mascotas."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Incluye toallas?",
+            "name": "¿Incluimos toallas?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "La ropa de cama está incluida. No entregamos toallas, te pedimos que traigas las tuyas."
@@ -620,10 +630,10 @@
           },
           {
             "@type": "Question",
-            "name": "¿Dónde queda y qué hay cerca?",
+            "name": "¿Dónde estamos y qué hay cerca?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "En El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo."
+              "text": "Estamos en El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo."
             }
           }
         ]
