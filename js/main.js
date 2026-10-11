@@ -14,6 +14,7 @@ const ICONS = {
     pool: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 5v9M17 5v9M7 9h10M4 18c1.6 0 1.6-1 3.2-1s1.6 1 3.2 1 1.6-1 3.2-1 1.6 1 3.2 1 1.6-1 3.2-1M4 21c1.6 0 1.6-1 3.2-1s1.6 1 3.2 1 1.6-1 3.2-1 1.6 1 3.2 1 1.6-1 3.2-1"/></svg>',
     paw: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6.5" cy="10.5" r="1.6"/><circle cx="10" cy="7.5" r="1.6"/><circle cx="14" cy="7.5" r="1.6"/><circle cx="17.5" cy="10.5" r="1.6"/><path d="M8.5 15.6c0-2 1.6-3.6 3.5-3.6s3.5 1.6 3.5 3.6c0 1.7-1.6 2.6-3.5 2.6s-3.5-.9-3.5-2.6Z"/></svg>',
     clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>',
+    calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><path d="M8.6 14.6l2.2 2.2 4.4-4.4"/></svg>',
     car: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/></svg>',
     instagram: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>',
     facebook: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 9h3V6h-3a3 3 0 0 0-3 3v2H8v3h3v7h3v-7h3l1-3h-4V9a1 1 0 0 1 1-1z"/></svg>',
@@ -30,7 +31,7 @@ const ICONS = {
     maps: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8Z"/><circle cx="12" cy="10" r="3"/></svg>',
 };
 
-const TRUST_ICONS = [ICONS.pin, ICONS.star, ICONS.trust];
+const TRUST_ICONS = [ICONS.calendar, ICONS.pin, ICONS.star, ICONS.trust];
 
 const I18N = {
     es: {
@@ -371,6 +372,17 @@ function render(c) {
     }
     // Hero subtitle: se traduce completo desde el config
     el('hero-subtitle').textContent = h.subtitle || '';
+
+    const heroBadgeEl = el('hero-badge');
+    if (heroBadgeEl) {
+        const heroBadgeTxt = h.badge || '';
+        if (heroBadgeTxt) {
+            el('hero-badge-text').textContent = heroBadgeTxt;
+            heroBadgeEl.style.display = 'inline-flex';
+        } else {
+            heroBadgeEl.style.display = 'none';
+        }
+    }
 
     const followers = b.followers || 0;
     const socialProofBadge = el('hero-social-proof');
