@@ -2,8 +2,8 @@ window.__CONFIG = {
   "business": {
     "name": "Cabañas Río Hondo",
     "short_name": "Cabañas Río Hondo",
-    "tagline": "Cabañas Río Hondo - Termas de Río Hondo",
-    "description": "Cabañas con agua termal, pileta de agua templada y Starlink gratis. A 2 cuadras del lago, en Termas de Río Hondo.",
+    "tagline": "Cabañas Río Hondo - Termas de Río Hondo - Santiago del Estero",
+    "description": "Cabañas con agua termal, pileta de agua templada y Starlink gratis. A 2 cuadras del lago, en Termas de Río Hondo - Santiago del Estero.",
     "category": "Cabañas",
     "followers": 0
   },
@@ -11,10 +11,10 @@ window.__CONFIG = {
   "hero": {
     "video": "videos/city-video.mp4",
     "poster": "fotos/portada.webp",
-    "eyebrow": "El Manantial · Termas de Río Hondo",
+    "eyebrow": "El Manantial - Termas de Río Hondo - Santiago del Estero",
     "title_line1": "Cabañas con",
     "title_em": "agua termal",
-    "title_line2": "en Termas de Río Hondo",
+    "title_line2": "en Termas de Río Hondo - Santiago del Estero",
     "subtitle": "Complejo de 4 cabañas con pileta de agua templada, bañera termal y Starlink gratis. A 2 cuadras del lago.",
     "badge": "Abierto todo el año"
   },
@@ -244,15 +244,15 @@ window.__CONFIG = {
       "business": {
         "name": "Cabañas Río Hondo",
         "short_name": "Cabañas Río Hondo",
-        "tagline": "Cabañas Río Hondo - Termas de Río Hondo",
-        "description": "Cabins with thermal water, a warm-water pool and free Starlink. Two blocks from the lake, in Termas de Río Hondo.",
+        "tagline": "Cabañas Río Hondo - Termas de Río Hondo - Santiago del Estero",
+        "description": "Cabins with thermal water, a warm-water pool and free Starlink. Two blocks from the lake, in Termas de Río Hondo - Santiago del Estero.",
         "category": "Cabins"
       },
       "hero": {
-        "eyebrow": "El Manantial · Termas de Río Hondo",
+        "eyebrow": "El Manantial - Termas de Río Hondo - Santiago del Estero",
         "title_line1": "Cabins with",
         "title_em": "thermal water",
-        "title_line2": "in Termas de Río Hondo",
+        "title_line2": "in Termas de Río Hondo - Santiago del Estero",
         "subtitle": "A complex of 4 cabins with a warm-water pool, a thermal bath and free Starlink. Two blocks from the lake.",
         "badge": "Open all year round"
       },

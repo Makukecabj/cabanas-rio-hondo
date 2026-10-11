@@ -154,6 +154,7 @@
 
         var heroTitle = h.title_em ? ((h.title_line1 || '') + ' ' + h.title_em + ' ' + (h.title_line2 || '')).trim() : (h.title_line1 || siteName);
         setText('hero-title', heroTitle);
+        setText('hero-eyebrow', h.eyebrow || '');
         setText('hero-subtitle', h.subtitle || b.tagline || '');
         setText('hero-cta-text', t('hero.cta'));
         setText('hero-cta-secondary-text', t('hero.more'));
@@ -266,7 +267,9 @@
         setText('location-label-phone', t('location.phone'));
         setText('location-label-email', t('location.email'));
         setText('location-label-social', t('location.social'));
-        setText('location-address', loc.address || '');
+        var locAddr = [loc.address, loc.city].filter(Boolean).join(', ');
+        if (loc.province) locAddr += ' - ' + loc.province;
+        setText('location-address', locAddr || '');
         setText('location-phone', con.phone || con.whatsapp || '');
         setText('location-email', con.email || '');
 
@@ -431,7 +434,7 @@
             var phoneClean = phoneRaw.replace(/\D/g, '');
             if (phoneClean) fc.push('<li><a href="tel:' + phoneClean + '"><i class="fas fa-phone"></i> ' + phoneRaw + '</a></li>');
             if (con.email) fc.push('<li><a href="mailto:' + con.email + '"><i class="fas fa-envelope"></i> ' + con.email + '</a></li>');
-            if (loc.city) fc.push('<li><a href="#location"><i class="fas fa-map-marker-alt"></i> ' + loc.city + '</a></li>');
+            if (loc.city) fc.push('<li><a href="#location"><i class="fas fa-map-marker-alt"></i> ' + loc.city + (loc.province ? ' - ' + loc.province : '') + '</a></li>');
             footerContact.innerHTML = fc.join('');
         }
 
