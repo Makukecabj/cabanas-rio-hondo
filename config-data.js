@@ -25,8 +25,8 @@ window.__CONFIG = {
     "province": "Santiago del Estero",
     "country": "Argentina",
     "destination_type": "city",
-    "map_query": "El Manantial, Termas de Río Hondo, Santiago del Estero, Argentina",
-    "map_embed": "https://maps.google.com/maps?q=El%20Manantial%2C%20Termas%20de%20R%C3%ADo%20Hondo%2C%20Santiago%20del%20Estero%2C%20Argentina&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    "map_query": "-27.5390439, -64.8668816",
+    "map_embed": "https://maps.google.com/maps?q=-27.5390439%2C%20-64.8668816&t=&z=17&ie=UTF8&iwloc=&output=embed",
     "description": "Estamos a 3 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo. Quedamos cerca de la feria del dique, con comidas y bares, y de las proveedurías de Villa Balnearia, camino al centro.",
     "highlights": [
       {
@@ -58,8 +58,8 @@ window.__CONFIG = {
     "email": ""
   },
   "social": {
-    "instagram": "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
-    "place_url": "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+    "instagram": "https://www.google.com/maps/place/27%C2%B032'20.6%22S+64%C2%B052'00.8%22W/@-27.5390439,-64.8694565,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-27.5390439!4d-64.8668816",
+    "place_url": "https://www.google.com/maps/place/27%C2%B032'20.6%22S+64%C2%B052'00.8%22W/@-27.5390439,-64.8694565,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-27.5390439!4d-64.8668816",
     "website": "",
     "facebook": "",
     "tiktok": ""
@@ -512,9 +512,9 @@ window.__CONFIG = {
         ],
         "logo": "https://cabanas-rio-hondo.vercel.app/fotos/Logo-direccionweb.jpeg",
         "sameAs": [
-          "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es"
+          "https://www.google.com/maps/place/27%C2%B032'20.6%22S+64%C2%B052'00.8%22W/@-27.5390439,-64.8694565,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-27.5390439!4d-64.8668816"
         ],
-        "hasMap": "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es",
+        "hasMap": "https://www.google.com/maps/place/27%C2%B032'20.6%22S+64%C2%B052'00.8%22W/@-27.5390439,-64.8694565,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-27.5390439!4d-64.8668816",
         "numberOfRooms": 4,
         "petsAllowed": true,
         "address": {
@@ -527,8 +527,8 @@ window.__CONFIG = {
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": -27.5385363,
-          "longitude": -64.8663391
+          "latitude": -27.5390439,
+          "longitude": -64.8668816
         },
         "areaServed": {
           "@type": "Place",

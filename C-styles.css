@@ -2198,6 +2198,61 @@ header:not(.scrolled) .theme-toggle {
     background: rgba(107,174,214,0.1);
 }
 
+/* Texto claro sobre fondos siempre oscuros en modo oscuro.
+   En dark mode --color-white vale #1E293B (azul oscuro) y se usa solo
+   como color de superficie; estos textos van siempre sobre fondo oscuro,
+   por eso se fuerzan en blanco. */
+.dark header:not(.scrolled) .nav-links a,
+.dark header:not(.scrolled) .lang-btn,
+.dark header:not(.scrolled) .lang-divider,
+.dark header:not(.scrolled) .nav-instagram,
+.dark header:not(.scrolled) .menu-toggle,
+.dark header:not(.scrolled) .theme-toggle {
+    color: #FFFFFF;
+}
+
+.dark .hero {
+    color: #FFFFFF;
+}
+
+.dark .btn-secondary {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.dark .btn-secondary:hover {
+    background: #FFFFFF;
+    color: var(--color-green);
+}
+
+.dark .services,
+.dark .reviews,
+.dark .promotions,
+.dark .traslados-box {
+    color: #FFFFFF;
+}
+
+.dark .services .section-title h2,
+.dark .reviews .section-title h2,
+.dark .promotions .section-title h2 {
+    color: #FFFFFF;
+}
+
+.dark .carousel-caption,
+.dark .carousel-counter,
+.dark .room-counter,
+.dark .reviews-carousel-btn {
+    color: #FFFFFF;
+}
+
+.dark .social-links a {
+    color: #FFFFFF;
+}
+
+.dark .social-links a:hover {
+    color: #0F172A;
+}
+
 /* Mobile Menu Button */
 .menu-toggle {
     display: flex;
