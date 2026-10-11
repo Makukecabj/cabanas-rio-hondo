@@ -7,7 +7,7 @@ window.__CONFIG = {
     "category": "Cabañas",
     "followers": 0
   },
-  "logo": "logo.jpg",
+  "og_image": "fotos/Logo-direccionweb.jpeg",
   "hero": {
     "video": "videos/city-video.mp4",
     "poster": "fotos/portada.webp",

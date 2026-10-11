@@ -318,7 +318,7 @@ function render(c) {
     if (canonicalLink && !canonicalLink.href) {
         canonicalLink.href = window.location.origin + window.location.pathname;
     }
-    const ogImage = (g.images && g.images[0] && g.images[0].src) || h.poster || '';
+    const ogImage = c.og_image || (g.images && g.images[0] && g.images[0].src) || h.poster || '';
     if (ogImage) {
         const fullUrl = ogImage.startsWith('http') ? ogImage : `${window.location.origin}/${ogImage}`;
         setMeta('og:image', 'og-image', fullUrl);
