@@ -107,6 +107,13 @@ nav .container {
     transition: height 0.3s ease;
 }
 
+/* Sobre el hero (header transparente) el logo va en blanco; su fondo blanco
+   se vuelve invisible con invert + screen (logo.jpg es oscuro sobre blanco) */
+header:not(.scrolled) .logo img {
+    filter: invert(1);
+    mix-blend-mode: screen;
+}
+
 /* Nav links - white on hero, dark when scrolled */
 header:not(.scrolled) .nav-links a {
     color: var(--color-white);
@@ -1917,7 +1924,10 @@ footer {
 .footer-brand img {
     height: 50px;
     margin-bottom: 20px;
-    filter: brightness(0) invert(1);
+    /* logo.jpg es oscuro sobre fondo blanco: invert + screen lo deja blanco
+       y vuelve invisible el fondo blanco (evita el rectangulo blanco) */
+    filter: invert(1);
+    mix-blend-mode: screen;
 }
 
 .footer-brand p {
@@ -2133,7 +2143,8 @@ header:not(.scrolled) .theme-toggle {
 }
 
 .dark .footer-brand img {
-    filter: brightness(0) invert(1) opacity(0.9);
+    filter: invert(1) opacity(0.95);
+    mix-blend-mode: screen;
 }
 
 .dark .btn-reservar-cta {
