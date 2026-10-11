@@ -29,6 +29,8 @@ const ICONS = {
     pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8Z"/><circle cx="12" cy="10" r="3"/></svg>',
     web: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>',
     maps: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8Z"/><circle cx="12" cy="10" r="3"/></svg>',
+    heating: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5Z"/></svg>',
+    ac: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12h20M12 2v20M20 16l-4-4 4-4M4 8l4 4-4 4M16 4l-4 4-4-4M8 20l4-4 4 4"/></svg>',
 };
 
 const TRUST_ICONS = [ICONS.calendar, ICONS.pin, ICONS.star, ICONS.trust];
@@ -84,7 +86,7 @@ const I18N = {
         step1_text: "Mandanos un WhatsApp con tus fechas y cuántos son.",
         step2_title: "Te confirmamos",
         step2_text: "Te respondemos al toque con disponibilidad y precio real.",
-        step3_title: "Empaquetá y vení",
+        step3_title: "Animate y venite",
         step3_text: "Sin comisiones ni intermediarios. Directo con nosotros.",
         loc_reviews_btn: "Ver reseñas en Google",
         tst_eyebrow: "Testimonios",
@@ -150,7 +152,7 @@ const I18N = {
         step1_text: "Send us a WhatsApp with your dates and group size.",
         step2_title: "We confirm",
         step2_text: "We reply right away with availability and real prices.",
-        step3_title: "Pack up and come",
+        step3_title: "Get excited and come",
         step3_text: "No fees, no middlemen. Straight with us.",
         loc_reviews_btn: "See Google reviews",
         tst_eyebrow: "Testimonials",

@@ -30,7 +30,7 @@
                 title: 'Tres pasos y estás adentro', subtitle: 'Reservar directo es así de simple',
                 s1t: 'Escribinos', s1d: 'Mandanos un WhatsApp con tus fechas y cuántos son.',
                 s2t: 'Te confirmamos', s2d: 'Te respondemos al toque con disponibilidad y precio real.',
-                s3t: 'Empaquetá y vení', s3d: 'Sin comisiones ni intermediarios. Directo con nosotros.'
+                s3t: 'Animate y venite', s3d: 'Sin comisiones ni intermediarios. Directo con nosotros.'
             },
             tst: {
                 title: 'Lo que dicen nuestros huéspedes', reviews_word: 'reseñas en Google',
@@ -61,7 +61,7 @@
                 title: "Three steps and you're in", subtitle: 'Booking direct is that simple',
                 s1t: 'Message us', s1d: 'Send us a WhatsApp with your dates and group size.',
                 s2t: 'We confirm', s2d: "We reply right away with availability and real prices.",
-                s3t: 'Pack up and come', s3d: 'No fees, no middlemen. Straight with us.'
+                s3t: 'Get excited and come', s3d: 'No fees, no middlemen. Straight with us.'
             },
             tst: {
                 title: 'What our guests say', reviews_word: 'Google reviews',

@@ -122,6 +122,18 @@ window.__CONFIG = {
       "title": "Apto mascotas",
       "description": "Tus mascotas son bienvenidas. Ropa de cama incluida.",
       "icon": "paw"
+    },
+    {
+      "key": "heating",
+      "title": "Calefacción por piso radiante",
+      "description": "Piso radiante en toda la cabaña para los días de frío.",
+      "icon": "heating"
+    },
+    {
+      "key": "ac",
+      "title": "Aire acondicionado frío/calor",
+      "description": "Climatización frío/calor para estar cómodo en cualquier época del año.",
+      "icon": "ac"
     }
   ],
   "testimonials": [
@@ -445,6 +457,18 @@ window.__CONFIG = {
           "title": "Pet friendly",
           "description": "Your pets are welcome. Bed linens included.",
           "icon": "paw"
+        },
+        {
+          "key": "heating",
+          "title": "Underfloor heating",
+          "description": "Underfloor heating throughout the cabin for the cold days.",
+          "icon": "heating"
+        },
+        {
+          "key": "ac",
+          "title": "A/C hot & cold",
+          "description": "Hot/cold climate control to stay comfortable in any season of the year.",
+          "icon": "ac"
         }
       ],
       "footer": {
