@@ -22,19 +22,21 @@
 - 2 habitaciones por cabaña: una con cama king y otra con cama matrimonial y cucheta
 
 ## Ubicación y entorno
-- A 2 cuadras del lago y su zona de pesca
+- A 3 cuadras del lago y su zona de pesca
 - A 5 km del centro de Termas de Río Hondo - Santiago del Estero
+- Cerca de la feria del dique (comidas y bares)
+- Cerca de las proveedurías de Villa Balnearia, camino al centro
 - Abierto todo el año
 - A 2 km del autódromo de Termas de Río Hondo - Santiago del Estero
 
 ## Preguntas frecuentes
-- ¿Qué incluye cada cabaña? Dos habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla.
-- ¿Tienen agua termal? Sí. La cabaña tiene agua termal y bañera termal, además de la pileta con agua templada.
-- ¿Hay WiFi? Sí, Starlink gratis en todo el complejo.
-- ¿Aceptan mascotas? Sí.
-- ¿Incluye toallas? La ropa de cama está incluida. No se entregan toallas.
-- ¿Están abiertos todo el año? Sí, estamos abiertos todo el año.
-- ¿Dónde queda? En El Manantial, a 2 cuadras del lago, a 5 km del centro y a 2 km del autódromo.
+- ¿Estamos abiertos todo el año? Sí, estamos abiertos todo el año.
+- ¿Qué incluye cada cabaña? Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla.
+- ¿Tenemos agua termal? Sí. Cada cabaña tiene agua termal y bañera termal, además de la pileta con agua templada.
+- ¿Tenemos WiFi? Sí, Starlink gratis en todo el complejo.
+- ¿Aceptamos mascotas? Sí, aceptamos mascotas.
+- ¿Incluimos toallas? La ropa de cama está incluida. No entregamos toallas, traé las tuyas.
+- ¿Dónde estamos y qué hay cerca? Estamos en El Manantial, a 3 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo. Cerca de la feria del dique (comidas y bares) y de las proveedurías de Villa Balnearia, camino al centro.
 
 ## Enlaces
 - Sitio: https://cabanas-rio-hondo.vercel.app/

@@ -3,7 +3,7 @@ window.__CONFIG = {
     "name": "Cabañas Río Hondo",
     "short_name": "Cabañas Río Hondo",
     "tagline": "Cabañas Río Hondo - Termas de Río Hondo - Santiago del Estero",
-    "description": "Cabañas con agua termal, pileta de agua templada y Starlink gratis. A 2 cuadras del lago, en Termas de Río Hondo - Santiago del Estero.",
+    "description": "Cabañas con agua termal, pileta de agua templada y Starlink gratis. A 3 cuadras del lago, en Termas de Río Hondo - Santiago del Estero.",
     "category": "Cabañas",
     "followers": 0
   },
@@ -15,7 +15,7 @@ window.__CONFIG = {
     "title_line1": "Cabañas con",
     "title_em": "agua termal",
     "title_line2": "en Termas de Río Hondo - Santiago del Estero",
-    "subtitle": "Complejo de 4 cabañas con pileta de agua templada, bañera termal y Starlink gratis. A 2 cuadras del lago.",
+    "subtitle": "Complejo de 4 cabañas con pileta de agua templada, bañera termal y Starlink gratis. A 3 cuadras del lago.",
     "badge": "Abierto todo el año"
   },
   "location": {
@@ -27,11 +27,19 @@ window.__CONFIG = {
     "destination_type": "city",
     "map_query": "El Manantial, Termas de Río Hondo, Santiago del Estero, Argentina",
     "map_embed": "https://maps.google.com/maps?q=El%20Manantial%2C%20Termas%20de%20R%C3%ADo%20Hondo%2C%20Santiago%20del%20Estero%2C%20Argentina&t=&z=14&ie=UTF8&iwloc=&output=embed",
-    "description": "A 2 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo.",
+    "description": "Estamos a 3 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo. Quedamos cerca de la feria del dique, con comidas y bares, y de las proveedurías de Villa Balnearia, camino al centro.",
     "highlights": [
       {
         "icon": "pin",
-        "text": "A 2 cuadras del lago y la zona de pesca"
+        "text": "A 3 cuadras del lago y la zona de pesca"
+      },
+      {
+        "icon": "pin",
+        "text": "Cerca de la feria del dique, con comidas y bares"
+      },
+      {
+        "icon": "pin",
+        "text": "Cerca de las proveedurías de Villa Balnearia, camino al centro"
       },
       {
         "icon": "car",
@@ -60,7 +68,7 @@ window.__CONFIG = {
     "eyebrow": "Te contamos",
     "title": "Un complejo de cabañas termales para descansar de verdad.",
     "paragraphs": [
-      "Cabañas Río Hondo es un complejo termal de 4 cabañas en El Manantial, a 2 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo.",
+      "Cabañas Río Hondo es un complejo termal de 4 cabañas en El Manantial, a 3 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo. Estamos cerquita de la feria del dique y de las proveedurías de Villa Balnearia, camino al centro.",
       "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla. Disfrutá de la pileta de agua templada, el agua termal y la bañera termal. Ropa de cama incluida y se aceptan mascotas."
     ],
     "photos": [
@@ -113,7 +121,7 @@ window.__CONFIG = {
     },
     {
       "key": "lake",
-      "title": "A 2 cuadras del lago",
+      "title": "A 3 cuadras del lago",
       "description": "Zona de pesca a pasitos. A 5 km del centro y a 2 km del autódromo.",
       "icon": "pin"
     },
@@ -243,7 +251,7 @@ window.__CONFIG = {
     },
     {
       "question": "¿Dónde estamos y qué hay cerca?",
-      "answer": "Estamos en El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo."
+      "answer": "Estamos en El Manantial, a 3 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo. Además, cerca de la feria del dique (comidas y bares) y de las proveedurías de Villa Balnearia, camino al centro."
     }
   ],
   "footer": {
@@ -257,7 +265,7 @@ window.__CONFIG = {
         "name": "Cabañas Río Hondo",
         "short_name": "Cabañas Río Hondo",
         "tagline": "Cabañas Río Hondo - Termas de Río Hondo - Santiago del Estero",
-        "description": "Cabins with thermal water, a warm-water pool and free Starlink. Two blocks from the lake, in Termas de Río Hondo - Santiago del Estero.",
+        "description": "Cabins with thermal water, a warm-water pool and free Starlink. Three blocks from the lake, in Termas de Río Hondo - Santiago del Estero.",
         "category": "Cabins"
       },
       "hero": {
@@ -265,15 +273,23 @@ window.__CONFIG = {
         "title_line1": "Cabins with",
         "title_em": "thermal water",
         "title_line2": "in Termas de Río Hondo - Santiago del Estero",
-        "subtitle": "A complex of 4 cabins with a warm-water pool, a thermal bath and free Starlink. Two blocks from the lake.",
+        "subtitle": "A complex of 4 cabins with a warm-water pool, a thermal bath and free Starlink. Three blocks from the lake.",
         "badge": "Open all year round"
       },
       "location": {
-        "description": "Two blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track.",
+        "description": "We're three blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track. We're also close to the feria del dique (food and bars) and to the Villa Balnearia grocery stores, on the way to downtown.",
         "highlights": [
           {
             "icon": "pin",
-            "text": "Two blocks from the lake and the fishing area"
+            "text": "Three blocks from the lake and the fishing area"
+          },
+          {
+            "icon": "pin",
+            "text": "Close to the feria del dique, with food and bars"
+          },
+          {
+            "icon": "pin",
+            "text": "Close to the Villa Balnearia grocery stores, on the way to downtown"
           },
           {
             "icon": "car",
@@ -289,7 +305,7 @@ window.__CONFIG = {
         "eyebrow": "About us",
         "title": "A thermal cabin complex to truly unwind.",
         "paragraphs": [
-          "Cabañas Río Hondo is a thermal complex of 4 cabins in El Manantial, two blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track.",
+          "Cabañas Río Hondo is a thermal complex of 4 cabins in El Manantial, three blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track. We're close to the feria del dique and to the Villa Balnearia grocery stores, on the way to downtown.",
           "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes. Enjoy the warm-water pool, the thermal water and the thermal bath. Bed linens included and pets are welcome."
         ],
         "photos": [
@@ -389,7 +405,7 @@ window.__CONFIG = {
         },
         {
           "question": "Where are you located and what's nearby?",
-          "answer": "We're in El Manantial, two blocks from the lake and the fishing area, 5 km from downtown and 2 km from the race track."
+          "answer": "We're in El Manantial, three blocks from the lake and the fishing area, 5 km from downtown and 2 km from the race track. We're also close to the feria del dique (food and bars) and to the Villa Balnearia grocery stores, on the way to downtown."
         }
       ],
       "testimonials": [
@@ -448,7 +464,7 @@ window.__CONFIG = {
         },
         {
           "key": "lake",
-          "title": "Two blocks from the lake",
+          "title": "Three blocks from the lake",
           "description": "Fishing area just steps away. 5 km from downtown and 2 km from the track.",
           "icon": "pin"
         },
@@ -485,7 +501,7 @@ window.__CONFIG = {
         "@type": "LodgingBusiness",
         "@id": "https://cabanas-rio-hondo.vercel.app/#lodging",
         "name": "Cabañas Río Hondo",
-        "description": "Complejo termal de 4 cabañas en Termas de Río Hondo, con pileta de agua templada, agua termal, bañera termal y Starlink gratis. A 2 cuadras del lago.",
+        "description": "Complejo termal de 4 cabañas en Termas de Río Hondo, con pileta de agua templada, agua termal, bañera termal y Starlink gratis. A 3 cuadras del lago.",
         "url": "https://cabanas-rio-hondo.vercel.app/",
         "telephone": "+5493813009166",
         "image": [
@@ -546,7 +562,7 @@ window.__CONFIG = {
           },
           {
             "@type": "LocationFeatureSpecification",
-            "name": "A 2 cuadras del lago",
+            "name": "A 3 cuadras del lago",
             "value": true
           },
           {
@@ -633,7 +649,7 @@ window.__CONFIG = {
             "name": "¿Dónde estamos y qué hay cerca?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Estamos en El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo."
+              "text": "Estamos en El Manantial, a 3 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del autódromo. Además, cerca de la feria del dique (comidas y bares) y de las proveedurías de Villa Balnearia, camino al centro."
             }
           }
         ]
