@@ -514,7 +514,11 @@ function render(c) {
     el('loc-maps-btn').textContent = t('loc_maps_btn');
     const reviewsBtn = document.getElementById('loc-reviews-btn');
     if (reviewsBtn) {
-        if (mapQuery) {
+        const placeUrl = (c.social && c.social.place_url) || '';
+        if (placeUrl) {
+            reviewsBtn.href = placeUrl;
+            reviewsBtn.textContent = t('loc_reviews_btn');
+        } else if (mapQuery) {
             reviewsBtn.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
             reviewsBtn.textContent = t('loc_reviews_btn');
         } else {

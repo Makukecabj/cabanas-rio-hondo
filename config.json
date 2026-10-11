@@ -116,7 +116,23 @@
       "icon": "paw"
     }
   ],
-  "testimonials": [],
+  "testimonials": [
+    {
+      "author": "Susana Soria",
+      "rating": 5,
+      "text": "Grande lo pasamos GENIAL recién llegamos de allá y ya extrañamos. José un capo, sus cabañas tienen de todo y su amabilidad es incomparable."
+    },
+    {
+      "author": "Federico Ortiz",
+      "rating": 5,
+      "text": "Lugar sencillo, pero bello, con un potencial increíble en cuanto al predio y la ubicación, a minutos de todo, sin contar la excelente atención del personal. Totalmente recomendable, en un futuro seguro vuelvo."
+    },
+    {
+      "author": "Ramiro Ferreyra",
+      "rating": 4,
+      "text": "Muy lindas cabañas en Río Hondo, alejadas de la ciudad. Muy bien equipada y con pileta grande en el fondo. La atención del dueño también es muy buena (vive ahí mismo en el complejo). En frente de las cabañas hay un almacén que tiene de todo. El precio del alquiler es bastante barato. Súper recomendable 👏🏻👏🏻"
+    }
+  ],
   "testimonials_meta": {
     "source": "none"
   },
@@ -345,6 +361,23 @@
         {
           "question": "Where are you located?",
           "answer": "In El Manantial, two blocks from the lake and the fishing area, 5 km from downtown and 2 km from the race track."
+        }
+      ],
+      "testimonials": [
+        {
+          "author": "Susana Soria",
+          "rating": 5,
+          "text": "We had a GREAT time — we just got back and we already miss it. José is the best, his cabins have everything and his kindness is unmatched."
+        },
+        {
+          "author": "Federico Ortiz",
+          "rating": 5,
+          "text": "A simple place, but beautiful, with incredible potential in the grounds and the location, minutes from everything, not to mention the excellent service from the staff. Totally recommendable — I'll definitely come back."
+        },
+        {
+          "author": "Ramiro Ferreyra",
+          "rating": 4,
+          "text": "Really nice cabins in Río Hondo, away from the city. Very well equipped and with a big pool at the back. The owner's service is also very good (he lives right there on the property). Right across from the cabins there's a store that has everything. The rental price is quite cheap. Highly recommended 👏🏻👏🏻"
         }
       ],
       "trust_bar": [
