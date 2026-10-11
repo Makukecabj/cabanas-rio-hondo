@@ -342,15 +342,21 @@ function render(c) {
     el('foot-logo').textContent = b.name || b.short_name || '';
     el('nav-cta').href = waLink;
     el('nav-cta').textContent = t('nav_cta');
-    el('hero-video-src').src = h.video || '';
     el('hero-video').poster = h.poster || '';
     const heroSection = document.querySelector('.hero');
-    if (h.video) {
+    const _reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const _saveData = !!(navigator.connection && navigator.connection.saveData);
+    const _smallScreen = window.matchMedia && window.matchMedia('(max-width: 860px)').matches;
+    const _useVideo = !!h.video && !_reduceMotion && !_saveData && !_smallScreen;
+    if (heroSection && h.poster) heroSection.style.setProperty('--hero-poster', `url("${h.poster}")`);
+    if (_useVideo) {
+        el('hero-video-src').src = h.video;
         el('hero-video').load();
-        if (heroSection) heroSection.classList.remove('no-video');
+        if (heroSection) heroSection.classList.remove('no-video', 'has-poster');
     } else {
         el('hero-video').style.display = 'none';
         if (heroSection) heroSection.classList.add('no-video');
+        if (heroSection && h.poster) heroSection.classList.add('has-poster');
     }
     el('hero-eyebrow').textContent = h.eyebrow || '';
     // Hero title: use config title_line1/em/line2 if present, else "Welcome to [Name]"
@@ -400,7 +406,7 @@ function render(c) {
     el('about-paragraphs').innerHTML = (ab.paragraphs || []).map(p => `<p style="color:var(--ink-soft);font-size:1.02rem;max-width:480px;margin-bottom:14px;">${safeHtml(p)}</p>`).join('');
     const photos = ab.photos || [];
     el('about-photos').innerHTML = photos.map((p, i) =>
-        `<img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || '')}" class="about-photo ${i === 0 ? 'p1' : 'p2'}">`
+        `<img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || '')}" class="about-photo ${i === 0 ? 'p1' : 'p2'}" loading="lazy" decoding="async">`
     ).join('');
 
 
@@ -417,7 +423,7 @@ function render(c) {
     let galleryHtml = '';
     lbItems = [];
     (g.images || []).forEach(img => {
-        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"></div>`;
+        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy" decoding="async"></div>`;
         lbItems.push({ type: 'image', src: img.src, alt: img.alt || '' });
     });
     // Videos removed from gallery - hero section uses the video background
