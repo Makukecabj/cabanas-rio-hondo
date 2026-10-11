@@ -2,8 +2,25 @@
     'use strict';
 
     var STORAGE_KEY = 'chosen_template';
-    var templates = ['A', 'B', 'C'];
-    var displayOrder = ['C', 'B', 'A']; // Rústico → Moderno → Elegante
+    var templates = ['A', 'C'];
+    var displayOrder = ['A', 'C']; // Elegante → Rústico
+
+    var store = (function () {
+        var mem = {};
+        try {
+            localStorage.setItem('__sw_t', '1');
+            localStorage.removeItem('__sw_t');
+            return {
+                get: function (k) { return localStorage.getItem(k); },
+                set: function (k, v) { localStorage.setItem(k, v); }
+            };
+        } catch (e) {
+            return {
+                get: function (k) { return mem[k] || null; },
+                set: function (k, v) { mem[k] = v; }
+            };
+        }
+    })();
     var info = {
         A: {
             name: 'Elegante',
@@ -37,18 +54,32 @@
             });
     });
 
+    function pageFor(tpl) {
+        return tpl === 'A' ? 'index.html' : 'preview-' + tpl + '.html';
+    }
+
     function init() {
         if (available.length === 0) return;
 
         var isRoot = window.location.pathname === '/' || window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('hostelyatel.vercel.app/');
+        var chosen = store.get(STORAGE_KEY);
+        var hasValid = chosen && available.indexOf(chosen) !== -1;
+
         if (isRoot) {
-            showModal(true);
-        } else {
-            var chosen = localStorage.getItem(STORAGE_KEY);
-            if (!chosen || available.indexOf(chosen) === -1) {
-                showModal(true);
-            } else {
+            if (hasValid && chosen !== 'A') {
+                window.location.replace(pageFor(chosen));
+                return;
+            }
+            if (hasValid) {
                 injectChangeButton();
+            } else {
+                showModal(true);
+            }
+        } else {
+            if (hasValid) {
+                injectChangeButton();
+            } else {
+                showModal(true);
             }
         }
     }
@@ -171,21 +202,21 @@
 
         var html = '';
         html += '<div class="sw-content">';
-        html += '<button class="sw-close" aria-label="Cerrar"><i class="fas fa-times"></i></button>';
+        html += '<button class="sw-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>';
         html += '<div class="sw-header">';
         if (isFirstVisit) {
-            html += '<h2>Elegí tu plantilla</h2>';
-            html += '<p>Todas muestran los mismos datos. Elegí la que más te guste.</p>';
+            html += '<h2>Elegí el diseño que más te guste</h2>';
+            html += '<p>Son 2 versiones con la misma información y las mismas fotos.</p>';
         } else {
-            html += '<h2>Cambiar plantilla</h2>';
-            html += '<p>Elegí otra plantilla para tu sitio.</p>';
+            html += '<h2>Cambiar diseño</h2>';
+            html += '<p>Elegí la otra versión y compará.</p>';
         }
         html += '</div>';
         html += '<div class="sw-grid">';
 
         available.forEach(function (t) {
             var d = info[t];
-            var isChosen = localStorage.getItem(STORAGE_KEY) === t;
+            var isChosen = store.get(STORAGE_KEY) === t;
             html += '<div class="sw-card' + (isChosen ? ' sw-active' : '') + '" data-tpl="' + t + '">';
             html += '<div class="sw-card-preview">';
             html += buildMockup(t);
@@ -195,9 +226,9 @@
             html += '<p>' + d.desc + '</p>';
             html += '<button class="sw-card-btn" data-tpl="' + t + '">';
             if (isChosen) {
-                html += '<i class="fas fa-check"></i> Viendo ahora';
+                html += '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg> Viendo ahora';
             } else {
-                html += 'Elegir <i class="fas fa-arrow-right"></i>';
+                html += 'Elegir <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M13 5l7 7-7 7"/></svg>';
             }
             html += '</button>';
             html += '</div>';
@@ -210,8 +241,8 @@
         modal.innerHTML = html;
 
         modal.querySelector('.sw-close').addEventListener('click', function () {
-            if (!localStorage.getItem(STORAGE_KEY)) {
-                localStorage.setItem(STORAGE_KEY, available[0]);
+            if (!store.get(STORAGE_KEY)) {
+                store.set(STORAGE_KEY, available[0]);
             }
             modal.remove();
             injectChangeButton();
@@ -219,8 +250,8 @@
 
         modal.addEventListener('click', function (e) {
             if (e.target === modal) {
-                if (!localStorage.getItem(STORAGE_KEY)) {
-                    localStorage.setItem(STORAGE_KEY, available[0]);
+                if (!store.get(STORAGE_KEY)) {
+                    store.set(STORAGE_KEY, available[0]);
                 }
                 modal.remove();
                 injectChangeButton();
@@ -231,12 +262,16 @@
         cards.forEach(function (card) {
             card.addEventListener('click', function () {
                 var tpl = card.getAttribute('data-tpl');
-                localStorage.setItem(STORAGE_KEY, tpl);
+                store.set(STORAGE_KEY, tpl);
+                var isRoot = window.location.pathname === '/' || window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('hostelyatel.vercel.app/');
                 if (isPreviewPage(tpl)) {
                     modal.remove();
                     injectChangeButton();
+                } else if (tpl === 'A' && isRoot) {
+                    modal.remove();
+                    injectChangeButton();
                 } else {
-                    window.location.href = 'preview-' + tpl + '.html';
+                    window.location.href = pageFor(tpl);
                 }
             });
         });
@@ -245,8 +280,8 @@
 
         document.onkeydown = function (e) {
             if (e.key === 'Escape') {
-                if (!localStorage.getItem(STORAGE_KEY)) {
-                    localStorage.setItem(STORAGE_KEY, available[0]);
+                if (!store.get(STORAGE_KEY)) {
+                    store.set(STORAGE_KEY, available[0]);
                 }
                 modal.remove();
                 injectChangeButton();
@@ -263,8 +298,8 @@
 
         var btn = document.createElement('button');
         btn.className = 'sw-change-btn';
-        btn.innerHTML = '<i class="fas fa-palette"></i> Cambiar plantilla';
-        btn.setAttribute('aria-label', 'Cambiar plantilla');
+        btn.innerHTML = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg> Cambiar diseño';
+        btn.setAttribute('aria-label', 'Cambiar diseño');
         btn.addEventListener('click', function () {
             showModal(false);
         });

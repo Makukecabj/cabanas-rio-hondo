@@ -21,7 +21,7 @@
     background: #fff;
     border-radius: 24px;
     padding: 44px 36px 36px;
-    max-width: 920px;
+    max-width: 820px;
     width: 100%;
     max-height: 90vh;
     overflow-y: auto;
@@ -80,10 +80,10 @@
     line-height: 1.4;
 }
 
-/* Grid de cards - Desktop: 3 columnas */
+/* Grid de cards - Desktop: 2 columnas */
 .sw-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 18px;
 }
 
@@ -196,7 +196,7 @@
     transform: scale(1.03);
 }
 
-/* ===== Mobile: 3 filas que llenan la pantalla ===== */
+/* ===== Mobile: 2 filas que llenan la pantalla ===== */
 @media (max-width: 720px) {
     .sw-modal {
         padding: 0;
@@ -245,7 +245,7 @@
 
     .sw-grid {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
         gap: 12px;
         padding: 0 16px 16px;
         flex: 1;
