@@ -2,30 +2,45 @@
   "business": {
     "name": "Cabañas Río Hondo",
     "short_name": "Cabañas Río Hondo",
-    "tagline": "Cabañas Río Hondo - Santiago",
-    "description": "Cabañas Río Hondo: pileta, parrilla, WiFi y la mejor ubicación en Santiago.",
-    "category": "Hospedaje",
+    "tagline": "Cabañas Río Hondo - Termas de Río Hondo",
+    "description": "Cabañas con agua termal, pileta de agua templada y Starlink gratis. A 2 cuadras del lago, en Termas de Río Hondo.",
+    "category": "Cabañas",
     "followers": 0
   },
+  "logo": "logo.jpg",
   "hero": {
     "video": "videos/city-video.mp4",
-    "poster": "fotos/foto-01.webp",
-    "eyebrow": "Santiago · RP333",
-    "title_line1": "Viví",
-    "title_em": "Cabañas Río Hondo",
-    "title_line2": "desde acá",
-    "subtitle": "Habitaciones limpias, pileta, parrilla y buena onda."
+    "poster": "fotos/portada.webp",
+    "eyebrow": "El Manantial · Termas de Río Hondo",
+    "title_line1": "Cabañas con",
+    "title_em": "agua termal",
+    "title_line2": "en Termas de Río Hondo",
+    "subtitle": "Complejo de 4 cabañas con pileta de agua templada, bañera termal y Starlink gratis. A 2 cuadras del lago."
   },
   "location": {
-    "address": "RP333, G4220 Termas de Río Hondo, Santiago del Estero",
-    "district": "Santiago",
-    "city": "Santiago",
-    "province": "",
-    "country": "Chile",
+    "address": "El Manantial, CP 4220",
+    "district": "El Manantial",
+    "city": "Termas de Río Hondo",
+    "province": "Santiago del Estero",
+    "country": "Argentina",
     "destination_type": "city",
-    "map_query": "RP333, G4220 Termas de Río Hondo, Santiago del Estero, Santiago",
-    "map_embed": "https://maps.google.com/maps?q=RP333%2C+G4220+Termas+de+R%C3%ADo+Hondo%2C+Santiago+del+Estero%2C+Santiago&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    "description": "Santiago. Todo lo que querés conocer queda cerca.",
+    "map_query": "El Manantial, Termas de Río Hondo, Santiago del Estero, Argentina",
+    "map_embed": "https://maps.google.com/maps?q=El%20Manantial%2C%20Termas%20de%20R%C3%ADo%20Hondo%2C%20Santiago%20del%20Estero%2C%20Argentina&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    "description": "A 2 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del circuito.",
+    "highlights": [
+      {
+        "icon": "pin",
+        "text": "A 2 cuadras del lago y la zona de pesca"
+      },
+      {
+        "icon": "car",
+        "text": "A 5 km del centro"
+      },
+      {
+        "icon": "car",
+        "text": "A 2 km del circuito"
+      }
+    ],
     "video": "videos/city-video.mp4"
   },
   "contact": {
@@ -42,120 +57,118 @@
   },
   "about": {
     "eyebrow": "Te contamos",
-    "title": "Así es Cabañas Río Hondo.",
+    "title": "Un complejo de cabañas termales para descansar de verdad.",
     "paragraphs": [
-      "Cabañas Río Hondo es un hostel familiar en Santiago, atendido por sus dueños. Ofrecemos habitaciones privadas y compartidas, WiFi, cocina equipada, pileta y parrilla. Estamos en zona centro, cerca de todo lo que necesitás para recorrer la ciudad."
+      "Cabañas Río Hondo es un complejo termal de 4 cabañas en El Manantial, a 2 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del circuito.",
+      "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla. Disfrutá de la pileta de agua templada, el agua termal y la bañera termal. Ropa de cama incluida y se aceptan mascotas."
     ],
     "photos": [
       {
-        "src": "fotos/foto-02.webp",
-        "alt": "Interior del hostel"
+        "src": "fotos/about-1.webp",
+        "alt": "Living de la cabaña"
       },
       {
-        "src": "fotos/foto-03.webp",
-        "alt": "Espacios comunes"
+        "src": "fotos/about-2.webp",
+        "alt": "Pileta de agua templada"
       }
     ]
   },
   "trust_bar": [
-    "Consultas al instante por WhatsApp",
-    "El precio que ves es el que pagás",
-    "Te recomendamos los mejores lugares de la zona"
+    "Reservá directo, sin intermediarios",
+    "Starlink gratis en todo el complejo",
+    "Se aceptan mascotas"
   ],
   "amenities": [
     {
-      "key": "bed",
-      "title": "Camas que invitan a quedarse",
-      "description": "Descansá bien para mañana seguir recorriendo.",
-      "icon": "bed"
+      "key": "thermal",
+      "title": "Agua termal",
+      "description": "Agua termal en la cabaña y bañera termal para relajarte cuando quieras.",
+      "icon": "thermal"
+    },
+    {
+      "key": "pool",
+      "title": "Pileta con agua templada",
+      "description": "Pileta templada para disfrutar en cualquier momento del día.",
+      "icon": "pool"
     },
     {
       "key": "wifi",
-      "title": "Internet rápido y gratis",
-      "description": "Para subir historias y mandar ubicación a los pingos.",
+      "title": "Starlink gratis",
+      "description": "Internet satelital rápido y gratis en todo el complejo.",
       "icon": "wifi"
     },
     {
-      "key": "pin",
-      "title": "En el corazón de la zona",
-      "description": "Todo cerca, nada de gastar en taxis.",
+      "key": "kitchen",
+      "title": "Cocina completa",
+      "description": "Cocina equipada con vajilla para cocinar como en casa.",
+      "icon": "kitchen"
+    },
+    {
+      "key": "lake",
+      "title": "A 2 cuadras del lago",
+      "description": "Zona de pesca a pasitos. A 5 km del centro y a 2 km del circuito.",
       "icon": "pin"
+    },
+    {
+      "key": "pets",
+      "title": "Apto mascotas",
+      "description": "Tus mascotas son bienvenidas. Ropa de cama incluida.",
+      "icon": "paw"
     }
   ],
-  "testimonials": [
-    {
-      "author": "Joaquín H.",
-      "rating": 5,
-      "text": "Excelente lugar para descansar después de recorrer. Recomendadísimo, volvemos seguro."
-    },
-    {
-      "author": "Federico T.",
-      "rating": 4,
-      "text": "Hermosa experiencia. Cómodo, bien ubicado y con una atención que se nota hecha con cariño."
-    },
-    {
-      "author": "Carolina R.",
-      "rating": 5,
-      "text": "Súper recomendable. Te sentís como en casa desde el primer momento. Volveremos sin dudas."
-    },
-    {
-      "author": "Martín G.",
-      "rating": 5,
-      "text": "Fuimos con amigos y quedamos encantados. Limpio, cómodo y la onda del lugar espectacular."
-    }
-  ],
+  "testimonials": [],
   "testimonials_meta": {
-    "source": "demo"
+    "source": "none"
   },
   "gallery": {
     "images": [
       {
-        "src": "fotos/foto-01.webp",
-        "alt": "Vista del alojamiento"
+        "src": "fotos/galeria-01.webp",
+        "alt": "Cabañas Río Hondo"
       },
       {
-        "src": "fotos/foto-02.webp",
-        "alt": "Interior del hostel"
+        "src": "fotos/galeria-02.webp",
+        "alt": "Interior de las cabañas"
       },
       {
-        "src": "fotos/foto-03.webp",
-        "alt": "Espacios comunes"
+        "src": "fotos/galeria-03.webp",
+        "alt": "Cabaña por dentro"
       },
       {
-        "src": "fotos/foto-04.webp",
-        "alt": "Zona de descanso"
+        "src": "fotos/galeria-04.webp",
+        "alt": "Cabaña por dentro"
       },
       {
-        "src": "fotos/foto-05.webp",
-        "alt": "Pileta y jardín"
+        "src": "fotos/galeria-05.webp",
+        "alt": "Living de la cabaña"
       },
       {
-        "src": "fotos/foto-06.webp",
-        "alt": "Cocina del hostel"
+        "src": "fotos/galeria-06.webp",
+        "alt": "Dormitorio"
       },
       {
-        "src": "fotos/foto-07.webp",
-        "alt": "Habitaciones"
+        "src": "fotos/galeria-07.webp",
+        "alt": "Dormitorio con cama matrimonial"
       },
       {
-        "src": "fotos/foto-08.webp",
-        "alt": "Terraza"
+        "src": "fotos/galeria-08.webp",
+        "alt": "Habitación"
       },
       {
-        "src": "fotos/foto-09.webp",
-        "alt": "Entrada principal"
+        "src": "fotos/galeria-09.webp",
+        "alt": "Pileta"
       },
       {
-        "src": "fotos/foto-10.webp",
-        "alt": "Áreas verdes"
+        "src": "fotos/galeria-10.webp",
+        "alt": "Pileta"
       },
       {
-        "src": "fotos/foto-11.webp",
-        "alt": "Comedor"
+        "src": "fotos/galeria-11.webp",
+        "alt": "Baño"
       },
       {
-        "src": "fotos/foto-12.webp",
-        "alt": "Living común"
+        "src": "fotos/galeria-12.webp",
+        "alt": "Baño"
       }
     ],
     "videos": []
@@ -163,34 +176,38 @@
   "pricing": {
     "eyebrow": "Precios",
     "amount": "Consultar",
-    "period": "SEGÚN TEMPORADA",
-    "title": "Escribinos y te enviamos los precios actualizados según fechas.",
-    "cta_text": "Consultar precios"
+    "period": "POR TEMPORADA",
+    "title": "Escribinos con tus fechas y te pasamos disponibilidad y precio.",
+    "cta_text": "Consultar por WhatsApp"
   },
   "faq": [
     {
-      "question": "¿Cómo reservo?",
-      "answer": "Mandanos un WhatsApp o un mail y te confirmamos al toque. Sin vueltas."
+      "question": "¿Qué incluye cada cabaña?",
+      "answer": "Dos habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
     },
     {
-      "question": "¿Tienen WiFi?",
-      "answer": "Sí, WiFi gratis en todo el lugar. Subí las fotos sin problema."
+      "question": "¿Tienen agua termal?",
+      "answer": "Sí. La cabaña tiene agua termal y bañera termal, además de la pileta con agua templada."
     },
     {
-      "question": "¿Hay pileta?",
-      "answer": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
+      "question": "¿Hay WiFi?",
+      "answer": "Sí, Starlink gratis en todo el complejo."
     },
     {
-      "question": "¿La zona es segura?",
-      "answer": "Sí, es una zona tranquila. Los viajeros la recomiendan."
+      "question": "¿Aceptan mascotas?",
+      "answer": "Sí, se aceptan mascotas."
     },
     {
-      "question": "¿Cómo me muevo por la ciudad?",
-      "answer": "Te contamos cómo llegar, qué transporte conviene y qué visitar cuando nos escribas."
+      "question": "¿Incluye toallas?",
+      "answer": "La ropa de cama está incluida. No entregamos toallas, te pedimos que traigas las tuyas."
+    },
+    {
+      "question": "¿Dónde queda y qué hay cerca?",
+      "answer": "En El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del circuito."
     }
   ],
   "footer": {
-    "description": "Cabañas Río Hondo",
+    "description": "Cabañas Río Hondo — Complejo termal en Termas de Río Hondo.",
     "copyright": "© 2026 Cabañas Río Hondo. Todos los derechos reservados.",
     "made_by": "Sitio hecho por Aizly"
   },
@@ -199,88 +216,101 @@
       "business": {
         "name": "Cabañas Río Hondo",
         "short_name": "Cabañas Río Hondo",
-        "tagline": "Cabañas Río Hondo - Accommodation",
-        "description": "Your base at Cabañas Río Hondo to explore Santiago.",
-        "category": "Accommodation"
+        "tagline": "Cabañas Río Hondo - Termas de Río Hondo",
+        "description": "Cabins with thermal water, a warm-water pool and free Starlink. Two blocks from the lake, in Termas de Río Hondo.",
+        "category": "Cabins"
       },
       "hero": {
-        "video": "videos/city-video.mp4",
-        "poster": "fotos/foto-01.webp",
-        "eyebrow": "Santiago · RP333",
-        "title_line1": "Your home in",
-        "title_em": "Cabañas Río Hondo",
-        "title_line2": "",
-        "subtitle": "Comfortable accommodation in Santiago for travelers like you."
+        "eyebrow": "El Manantial · Termas de Río Hondo",
+        "title_line1": "Cabins with",
+        "title_em": "thermal water",
+        "title_line2": "in Termas de Río Hondo",
+        "subtitle": "A complex of 4 cabins with a warm-water pool, a thermal bath and free Starlink. Two blocks from the lake."
       },
-      "about": {
-        "eyebrow": "A bit about us",
-        "title": "Let us tell you about Cabañas Río Hondo.",
-        "paragraphs": [
-          "Cabañas Río Hondo is your base in Santiago. Pool, BBQ, WiFi, kitchen and an ideal location to explore everything. We're a family hostel with all the vibes you need to travel easy."
-        ],
-        "photos": [
+      "location": {
+        "description": "Two blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track.",
+        "highlights": [
           {
-            "src": "fotos/foto-02.webp",
-            "alt": "Interior del hostel"
+            "icon": "pin",
+            "text": "Two blocks from the lake and the fishing area"
           },
           {
-            "src": "fotos/foto-03.webp",
-            "alt": "Espacios comunes"
+            "icon": "car",
+            "text": "5 km from downtown"
+          },
+          {
+            "icon": "car",
+            "text": "2 km from the race track"
           }
         ]
       },
-      "location": {
-        "description": "Santiago. Great location to explore the area."
+      "about": {
+        "eyebrow": "About us",
+        "title": "A thermal cabin complex to truly unwind.",
+        "paragraphs": [
+          "Cabañas Río Hondo is a thermal complex of 4 cabins in El Manantial, two blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track.",
+          "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes. Enjoy the warm-water pool, the thermal water and the thermal bath. Bed linens included and pets are welcome."
+        ],
+        "photos": [
+          {
+            "src": "fotos/about-1.webp",
+            "alt": "Cabin living room"
+          },
+          {
+            "src": "fotos/about-2.webp",
+            "alt": "Warm-water pool"
+          }
+        ]
       },
       "gallery": {
         "images": [
           {
-            "src": "fotos/foto-01.webp",
-            "alt": "View of the property"
+            "src": "fotos/galeria-01.webp",
+            "alt": "Cabañas Río Hondo"
           },
           {
-            "src": "fotos/foto-02.webp",
-            "alt": "Inside the hostel"
+            "src": "fotos/galeria-02.webp",
+            "alt": "Inside the cabins"
           },
           {
-            "src": "fotos/foto-03.webp",
-            "alt": "Common areas"
+            "src": "fotos/galeria-03.webp",
+            "alt": "Cabin interior"
           },
           {
-            "src": "fotos/foto-04.webp",
-            "alt": "Relaxation area"
+            "src": "fotos/galeria-04.webp",
+            "alt": "Cabin interior"
           },
           {
-            "src": "fotos/foto-05.webp",
-            "alt": "Pool and garden"
+            "src": "fotos/galeria-05.webp",
+            "alt": "Cabin living room"
           },
           {
-            "src": "fotos/foto-06.webp",
-            "alt": "Hostel kitchen"
+            "src": "fotos/galeria-06.webp",
+            "alt": "Bedroom"
           },
           {
-            "src": "fotos/foto-07.webp",
-            "alt": "Rooms"
+            "src": "fotos/galeria-07.webp",
+            "alt": "Bedroom with a double bed"
           },
           {
-            "src": "fotos/foto-08.webp",
-            "alt": "Terrace"
+            "src": "fotos/galeria-08.webp",
+            "alt": "Room"
           },
           {
-            "src": "fotos/foto-09.webp",
-            "alt": "Main entrance"
+            "src": "fotos/galeria-09.webp",
+            "alt": "Pool"
           },
           {
-            "src": "fotos/foto-10.webp",
-            "alt": "Green areas"
+            "src": "fotos/galeria-10.webp",
+            "alt": "Pool"
           },
           {
-            "src": "fotos/foto-11.webp",
-            "alt": "Dining room"
+            "src": "fotos/galeria-11.webp",
+            "alt": "Bathroom"
           },
           {
-            "src": "fotos/foto-12.webp",
-            "alt": "Common lounge"
+            "src": "fotos/galeria-12.webp",
+            "alt": "Bathroom"
           }
         ]
       },
@@ -288,77 +318,80 @@
         "eyebrow": "Prices",
         "amount": "Ask us",
         "period": "Varies by season",
-        "title": "Message us for updated prices based on your dates.",
-        "cta_text": "Check prices"
+        "title": "Message us with your dates and we'll send availability and pricing.",
+        "cta_text": "Ask on WhatsApp"
       },
       "faq": [
         {
-          "question": "Is there air conditioning?",
-          "answer": "Yes, you'll stay cool in summer no problem."
+          "question": "What's included in each cabin?",
+          "answer": "Two bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes."
         },
         {
-          "question": "Is there a pool?",
-          "answer": "Yes! In summer it's the best spot to cool off after sightseeing."
+          "question": "Is there thermal water?",
+          "answer": "Yes. The cabin has thermal water and a thermal bath, plus a warm-water pool."
         },
         {
           "question": "Is there WiFi?",
-          "answer": "Yep, free WiFi everywhere. Upload your stories without worry."
+          "answer": "Yes, free Starlink throughout the complex."
         },
         {
-          "question": "Is there heating?",
-          "answer": "Yes, we keep it warm in winter. Don't worry about the cold."
+          "question": "Are pets allowed?",
+          "answer": "Yes, pets are welcome."
         },
         {
-          "question": "Is it close to downtown?",
-          "answer": "Message us and we'll confirm the exact distance and how to get here from the bus station or airport."
+          "question": "Are towels provided?",
+          "answer": "Bed linens are included. We don't provide towels, so please bring your own."
+        },
+        {
+          "question": "Where are you located?",
+          "answer": "In El Manantial, two blocks from the lake and the fishing area, 5 km from downtown and 2 km from the race track."
         }
       ],
       "trust_bar": [
-        "Updated availability in real time",
-        "No Booking.com commissions",
-        "We help you plan your trip"
+        "Book direct, no middlemen",
+        "Free Starlink throughout",
+        "Pets welcome"
       ],
       "amenities": [
         {
-          "title": "Comfortable rooms",
-          "description": "Everything you need to rest after a day of exploring.",
-          "icon": "bed"
+          "key": "thermal",
+          "title": "Thermal water",
+          "description": "Thermal water in the cabin and a thermal bath to relax whenever you like.",
+          "icon": "thermal"
         },
         {
-          "title": "Free WiFi",
-          "description": "Internet everywhere on the property.",
+          "key": "pool",
+          "title": "Warm-water pool",
+          "description": "A warm pool to enjoy any time of day.",
+          "icon": "pool"
+        },
+        {
+          "key": "wifi",
+          "title": "Free Starlink",
+          "description": "Fast, free satellite internet throughout the complex.",
           "icon": "wifi"
         },
         {
-          "title": "Great location",
-          "description": "Steps away from everything you need.",
+          "key": "kitchen",
+          "title": "Full kitchen",
+          "description": "Equipped kitchen with dishes so you can cook like at home.",
+          "icon": "kitchen"
+        },
+        {
+          "key": "lake",
+          "title": "Two blocks from the lake",
+          "description": "Fishing area just steps away. 5 km from downtown and 2 km from the track.",
           "icon": "pin"
-        }
-      ],
-      "testimonials": [
-        {
-          "author": "Sofia R.",
-          "rating": 5,
-          "text": "The best choice of our whole trip. Spotless and the staff make you feel so welcome."
         },
         {
-          "author": "Sarah K.",
-          "rating": 5,
-          "text": "Amazing hospitality from the moment we arrived. Great location and such a warm vibe."
-        },
-        {
-          "author": "Laura C.",
-          "rating": 5,
-          "text": "Traveled solo and felt super safe. Met great people and enjoyed every minute."
-        },
-        {
-          "author": "Lucas P.",
-          "rating": 4,
-          "text": "Great value and personalized attention you don't find anywhere else."
+          "key": "pets",
+          "title": "Pet friendly",
+          "description": "Your pets are welcome. Bed linens included.",
+          "icon": "paw"
         }
       ],
       "footer": {
-        "description": "Cabañas Río Hondo",
+        "description": "Cabañas Río Hondo — Thermal complex in Termas de Río Hondo.",
         "copyright": "© 2026 Cabañas Río Hondo. All rights reserved.",
         "made_by": "Site by Aizly"
       }
@@ -370,34 +403,50 @@
       {
         "@type": "LodgingBusiness",
         "name": "Cabañas Río Hondo",
-        "description": "Habitaciones cómodas y buena onda en Cabañas Río Hondo, Santiago.",
-        "url": "",
+        "description": "Complejo termal de 4 cabañas en Termas de Río Hondo, con pileta de agua templada, agua termal, bañera termal y Starlink gratis.",
+        "url": "https://cabanas-rio-hondo.vercel.app/",
         "telephone": "+5493813009166",
         "email": "",
-        "image": "",
+        "image": "https://cabanas-rio-hondo.vercel.app/og-image.jpg",
         "sameAs": [
           "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/data=!4m10!3m9!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!19sChIJsbgml6VvI5QRFcJcy2spa0o?authuser=0&hl=es&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1"
         ],
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "RP333, G4220 Termas de Río Hondo, Santiago del Estero",
-          "addressLocality": "Santiago",
-          "addressCountry": "CL"
+          "streetAddress": "El Manantial, CP 4220",
+          "addressLocality": "Termas de Río Hondo",
+          "addressRegion": "Santiago del Estero",
+          "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -27.5385363,
+          "longitude": -64.8663391
         },
         "amenityFeature": [
           {
             "@type": "LocationFeatureSpecification",
-            "name": "Camas que invitan a quedarse",
+            "name": "Agua termal",
             "value": true
           },
           {
             "@type": "LocationFeatureSpecification",
-            "name": "Internet rápido y gratis",
+            "name": "Pileta con agua templada",
             "value": true
           },
           {
             "@type": "LocationFeatureSpecification",
-            "name": "En el corazón de la zona",
+            "name": "Starlink gratis",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Cocina completa",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Apto mascotas",
             "value": true
           }
         ]
@@ -407,42 +456,50 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "¿Cómo reservo?",
+            "name": "¿Qué incluye cada cabaña?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Mandanos un WhatsApp o un mail y te confirmamos al toque. Sin vueltas."
+              "text": "Dos habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Tienen WiFi?",
+            "name": "¿Tienen agua termal?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí, WiFi gratis en todo el lugar. Subí las fotos sin problema."
+              "text": "Sí. La cabaña tiene agua termal y bañera termal, además de la pileta con agua templada."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Hay pileta?",
+            "name": "¿Hay WiFi?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
+              "text": "Sí, Starlink gratis en todo el complejo."
             }
           },
           {
             "@type": "Question",
-            "name": "¿La zona es segura?",
+            "name": "¿Aceptan mascotas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí, es una zona tranquila. Los viajeros la recomiendan."
+              "text": "Sí, se aceptan mascotas."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Cómo me muevo por la ciudad?",
+            "name": "¿Incluye toallas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Te contamos cómo llegar, qué transporte conviene y qué visitar cuando nos escribas."
+              "text": "La ropa de cama está incluida. No entregamos toallas, te pedimos que traigas las tuyas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde queda y qué hay cerca?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En El Manantial, a 2 cuadras del lago y la zona de pesca, a 5 km del centro y a 2 km del circuito."
             }
           }
         ]

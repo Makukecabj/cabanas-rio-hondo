@@ -247,7 +247,8 @@
                 bar: 'fa-cocktail', garden: 'fa-leaf', heating: 'fa-fire', lockers: 'fa-lock',
                 desk: 'fa-laptop', plugs: 'fa-plug', microwave: 'fa-microwave', fridge: 'fa-snowflake',
                 common: 'fa-couch', bicycle: 'fa-bicycle', coffee: 'fa-mug-hot', reception: 'fa-bell-concierge',
-                bed: 'fa-bed', sun: 'fa-sun', pin: 'fa-map-marker-alt', air: 'fa-wind'
+                bed: 'fa-bed', sun: 'fa-sun', pin: 'fa-map-marker-alt', air: 'fa-wind',
+                thermal: 'fa-hot-tub-person', paw: 'fa-paw'
             };
             servicesGrid.innerHTML = am.map(function(a) {
                 return '<div class="service-item"><i class="fas ' + (ICONS[a.icon] || 'fa-check') + '"></i><h4>' + (a.title || '') + '</h4><p>' + (a.description || '') + '</p></div>';

@@ -10,6 +10,9 @@ const ICONS = {
     grill: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 18v-6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6M4 18h16M6 10V6h4v4"/></svg>',
     sun: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>',
     wifi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8.5a16 16 0 0 1 20 0M5.5 12a11 11 0 0 1 13 0M9 15.5a6 6 0 0 1 6 0M12 19h.01"/></svg>',
+    thermal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3c-1.4 1.8 1.4 2.6 0 4.4M12 3c-1.4 1.8 1.4 2.6 0 4.4M16 3c-1.4 1.8 1.4 2.6 0 4.4M4 13h16v2a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-2Z"/></svg>',
+    pool: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 5v9M17 5v9M7 9h10M4 18c1.6 0 1.6-1 3.2-1s1.6 1 3.2 1 1.6-1 3.2-1 1.6 1 3.2 1 1.6-1 3.2-1M4 21c1.6 0 1.6-1 3.2-1s1.6 1 3.2 1 1.6-1 3.2-1 1.6 1 3.2 1 1.6-1 3.2-1"/></svg>',
+    paw: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6.5" cy="10.5" r="1.6"/><circle cx="10" cy="7.5" r="1.6"/><circle cx="14" cy="7.5" r="1.6"/><circle cx="17.5" cy="10.5" r="1.6"/><path d="M8.5 15.6c0-2 1.6-3.6 3.5-3.6s3.5 1.6 3.5 3.6c0 1.7-1.6 2.6-3.5 2.6s-3.5-.9-3.5-2.6Z"/></svg>',
     clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>',
     car: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/></svg>',
     instagram: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>',
@@ -414,7 +417,7 @@ function render(c) {
     let galleryHtml = '';
     lbItems = [];
     (g.images || []).forEach(img => {
-        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"><div class="gallery-overlay"><span>${escapeHtml(img.alt || '')}</span></div></div>`;
+        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"></div>`;
         lbItems.push({ type: 'image', src: img.src, alt: img.alt || '' });
     });
     // Videos removed from gallery - hero section uses the video background
