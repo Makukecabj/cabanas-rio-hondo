@@ -75,7 +75,7 @@
     "title": "Un complejo de cabañas termales para descansar de verdad.",
     "paragraphs": [
       "Cabañas Río Hondo es un complejo termal de 4 cabañas en El Manantial, a 3 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo. Estamos cerquita de la feria del dique y de las proveedurías de Villa Balnearia, camino al centro.",
-      "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla. Disfrutá de la pileta de agua templada, el agua termal y la bañera termal. Ropa de cama incluida y se aceptan mascotas."
+      "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV y asador, y cochera techada. Disfrutá de la pileta de agua templada, el agua termal y la bañera termal. Ropa de cama incluida y se aceptan mascotas."
     ],
     "photos": [
       {
@@ -148,6 +148,24 @@
       "title": "Aire acondicionado frío/calor",
       "description": "Climatización frío/calor para estar cómodo en cualquier época del año.",
       "icon": "ac"
+    },
+    {
+      "key": "tv",
+      "title": "TV",
+      "description": "TV Smart en el living.",
+      "icon": "tv"
+    },
+    {
+      "key": "grill",
+      "title": "Asador",
+      "description": "Asador para disfrutar un buen asado en familia.",
+      "icon": "grill"
+    },
+    {
+      "key": "parking",
+      "title": "Cochera techada",
+      "description": "Cochera techada para tu auto.",
+      "icon": "car"
     }
   ],
   "testimonials": [
@@ -239,7 +257,7 @@
     },
     {
       "question": "¿Qué incluye cada cabaña?",
-      "answer": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
+      "answer": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV y asador, y cochera techada."
     },
     {
       "question": "¿Tenemos agua termal?",
@@ -320,7 +338,7 @@
         "title": "A thermal cabin complex to truly unwind.",
         "paragraphs": [
           "Cabañas Río Hondo is a thermal complex of 4 cabins in El Manantial, three blocks from the lake and its fishing area, 5 km from downtown and 2 km from the race track. We're close to the feria del dique and to the Villa Balnearia grocery stores, on the way to downtown.",
-          "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes. Enjoy the warm-water pool, the thermal water and the thermal bath. Bed linens included and pets are welcome."
+          "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed, a full kitchen with dishes, TV and a barbecue grill, plus covered parking. Enjoy the warm-water pool, the thermal water and the thermal bath. Bed linens included and pets are welcome."
         ],
         "photos": [
           {
@@ -399,7 +417,7 @@
         },
         {
           "question": "What's included in each cabin?",
-          "answer": "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed and a full kitchen with dishes."
+          "answer": "Each cabin has 2 bedrooms (one with a king bed and one with a double bed and a bunk bed), a living room with a sofa bed, a full kitchen with dishes, TV and a barbecue grill, plus covered parking."
         },
         {
           "question": "Do you have thermal water?",
@@ -499,6 +517,24 @@
           "title": "A/C hot & cold",
           "description": "Hot/cold climate control to stay comfortable in any season of the year.",
           "icon": "ac"
+        },
+        {
+          "key": "tv",
+          "title": "TV",
+          "description": "Smart TV in the living room.",
+          "icon": "tv"
+        },
+        {
+          "key": "grill",
+          "title": "Barbecue grill",
+          "description": "Barbecue grill to enjoy a good asado with the family.",
+          "icon": "grill"
+        },
+        {
+          "key": "parking",
+          "title": "Covered parking",
+          "description": "Covered parking for your car.",
+          "icon": "car"
         }
       ],
       "footer": {
@@ -594,6 +630,21 @@
             "@type": "LocationFeatureSpecification",
             "name": "Aire acondicionado frío/calor",
             "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "TV",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Asador",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Cochera techada",
+            "value": true
           }
         ]
       },
@@ -624,7 +675,7 @@
             "name": "¿Qué incluye cada cabaña?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama y cocina completa con vajilla."
+              "text": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV y asador, y cochera techada."
             }
           },
           {
