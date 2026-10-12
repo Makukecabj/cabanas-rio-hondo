@@ -75,7 +75,7 @@ window.__CONFIG = {
     "title": "Un complejo de cabañas termales para descansar de verdad.",
     "paragraphs": [
       "Cabañas Río Hondo es un complejo termal de 4 cabañas en El Manantial, a 3 cuadras del lago y su zona de pesca, a 5 km del centro y a 2 km del autódromo. Estamos cerquita de la feria del dique y de las proveedurías de Villa Balnearia, camino al centro.",
-      "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV y asador, y cochera techada. Disfrutá de la pileta de agua templada, el agua termal y la bañera termal. Ropa de cama incluida y se aceptan mascotas."
+      "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV, asador y cochera techada. Disfrutá de la pileta de agua templada, el agua termal y la bañera termal. Ropa de cama incluida y se aceptan mascotas."
     ],
     "photos": [
       {
@@ -257,7 +257,7 @@ window.__CONFIG = {
     },
     {
       "question": "¿Qué incluye cada cabaña?",
-      "answer": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV y asador, y cochera techada."
+      "answer": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV, asador y cochera techada."
     },
     {
       "question": "¿Tenemos agua termal?",
@@ -675,7 +675,7 @@ window.__CONFIG = {
             "name": "¿Qué incluye cada cabaña?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV y asador, y cochera techada."
+              "text": "Cada cabaña tiene 2 habitaciones (una con cama king y otra con cama matrimonial y cucheta), living con futón cama, cocina completa con vajilla, TV, asador y cochera techada."
             }
           },
           {
