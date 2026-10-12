@@ -8,6 +8,12 @@
     "followers": 0
   },
   "og_image": "fotos/og-cabanas.jpg",
+  "seo": {
+    "title": "Cabañas en Termas de Río Hondo | Reserva Directa y Sin Comisiones",
+    "description": "Alquiler de cabañas en Termas de Río Hondo. Equipadas, con pileta y excelente ubicación. Consultá disponibilidad y reservá directo por WhatsApp.",
+    "og_title": "Cabañas en Termas de Río Hondo | Reserva Directa y Sin Comisiones",
+    "og_description": "Alquiler de cabañas en Termas de Río Hondo. Equipadas, con pileta y excelente ubicación. Consultá disponibilidad y reservá directo por WhatsApp."
+  },
   "hero": {
     "video": "videos/city-video.mp4",
     "poster": "fotos/portada.webp",
@@ -74,11 +80,11 @@
     "photos": [
       {
         "src": "fotos/about-1.webp",
-        "alt": "Living de la cabaña"
+        "alt": "Living de las cabañas en Termas de Río Hondo"
       },
       {
         "src": "fotos/about-2.webp",
-        "alt": "Pileta de agua templada"
+        "alt": "Pileta de agua templada de las cabañas"
       }
     ]
   },
@@ -170,51 +176,51 @@
     "images": [
       {
         "src": "fotos/galeria-01.webp",
-        "alt": "Cabañas Río Hondo"
+        "alt": "Cabañas en Termas de Río Hondo - exterior del complejo"
       },
       {
         "src": "fotos/galeria-02.webp",
-        "alt": "Interior de las cabañas"
+        "alt": "Interior de las cabañas en Termas de Río Hondo"
       },
       {
         "src": "fotos/galeria-03.webp",
-        "alt": "Cabaña por dentro"
+        "alt": "Instalaciones y comodidades - interior de cabaña"
       },
       {
         "src": "fotos/galeria-04.webp",
-        "alt": "Cabaña por dentro"
+        "alt": "Instalaciones y comodidades - interior de cabaña equipada"
       },
       {
         "src": "fotos/galeria-05.webp",
-        "alt": "Living de la cabaña"
+        "alt": "Living de las cabañas en Termas de Río Hondo"
       },
       {
         "src": "fotos/galeria-06.webp",
-        "alt": "Dormitorio"
+        "alt": "Dormitorio de las cabañas - cama king"
       },
       {
         "src": "fotos/galeria-07.webp",
-        "alt": "Dormitorio con cama matrimonial"
+        "alt": "Dormitorio con cama matrimonial y cucheta"
       },
       {
         "src": "fotos/galeria-08.webp",
-        "alt": "Habitación"
+        "alt": "Habitación de las cabañas en Termas de Río Hondo"
       },
       {
         "src": "fotos/galeria-09.webp",
-        "alt": "Pileta"
+        "alt": "Pileta de las cabañas en Termas de Río Hondo"
       },
       {
         "src": "fotos/galeria-10.webp",
-        "alt": "Pileta"
+        "alt": "Pileta de agua templada de las cabañas"
       },
       {
         "src": "fotos/galeria-11.webp",
-        "alt": "Baño"
+        "alt": "Baño y bañera termal de las cabañas"
       },
       {
         "src": "fotos/galeria-12.webp",
-        "alt": "Baño"
+        "alt": "Baño de las cabañas - instalaciones y comodidades"
       }
     ],
     "videos": []
@@ -270,6 +276,12 @@
         "description": "Cabins with thermal water, a warm-water pool and free Starlink. Three blocks from the lake, in Termas de Río Hondo - Santiago del Estero.",
         "category": "Cabins"
       },
+      "seo": {
+        "title": "Cabins in Termas de Río Hondo | Book Direct, No Fees",
+        "description": "Cabin rentals in Termas de Río Hondo. Fully equipped, with a pool and a great location. Check availability and book directly on WhatsApp.",
+        "og_title": "Cabins in Termas de Río Hondo | Book Direct, No Fees",
+        "og_description": "Cabin rentals in Termas de Río Hondo. Fully equipped, with a pool and a great location. Check availability and book directly on WhatsApp."
+      },
       "hero": {
         "eyebrow": "El Manantial - Termas de Río Hondo - Santiago del Estero",
         "title_line1": "Cabins with",
@@ -313,11 +325,11 @@
         "photos": [
           {
             "src": "fotos/about-1.webp",
-            "alt": "Cabin living room"
+            "alt": "Living room of the cabins in Termas de Río Hondo"
           },
           {
             "src": "fotos/about-2.webp",
-            "alt": "Warm-water pool"
+            "alt": "Warm-water pool of the cabins"
           }
         ]
       },
@@ -325,51 +337,51 @@
         "images": [
           {
             "src": "fotos/galeria-01.webp",
-            "alt": "Cabañas Río Hondo"
+            "alt": "Cabins in Termas de Río Hondo - complex exterior"
           },
           {
             "src": "fotos/galeria-02.webp",
-            "alt": "Inside the cabins"
+            "alt": "Inside the cabins in Termas de Río Hondo"
           },
           {
             "src": "fotos/galeria-03.webp",
-            "alt": "Cabin interior"
+            "alt": "Facilities and amenities - cabin interior"
           },
           {
             "src": "fotos/galeria-04.webp",
-            "alt": "Cabin interior"
+            "alt": "Facilities and amenities - fully equipped cabin interior"
           },
           {
             "src": "fotos/galeria-05.webp",
-            "alt": "Cabin living room"
+            "alt": "Living room of the cabins in Termas de Río Hondo"
           },
           {
             "src": "fotos/galeria-06.webp",
-            "alt": "Bedroom"
+            "alt": "Bedroom of the cabins - king bed"
           },
           {
             "src": "fotos/galeria-07.webp",
-            "alt": "Bedroom with a double bed"
+            "alt": "Bedroom with a double bed and a bunk bed"
           },
           {
             "src": "fotos/galeria-08.webp",
-            "alt": "Room"
+            "alt": "Room of the cabins in Termas de Río Hondo"
           },
           {
             "src": "fotos/galeria-09.webp",
-            "alt": "Pool"
+            "alt": "Pool of the cabins in Termas de Río Hondo"
           },
           {
             "src": "fotos/galeria-10.webp",
-            "alt": "Pool"
+            "alt": "Warm-water pool of the cabins"
           },
           {
             "src": "fotos/galeria-11.webp",
-            "alt": "Bathroom"
+            "alt": "Bathroom and thermal bath of the cabins"
           },
           {
             "src": "fotos/galeria-12.webp",
-            "alt": "Bathroom"
+            "alt": "Bathroom of the cabins - facilities and amenities"
           }
         ]
       },
@@ -503,6 +515,7 @@
         "@type": "LodgingBusiness",
         "@id": "https://cabanas-rio-hondo.vercel.app/#lodging",
         "name": "Cabañas Río Hondo",
+        "alternateName": "Cabañas en Termas de Río Hondo",
         "description": "Complejo termal de 4 cabañas en Termas de Río Hondo, con pileta de agua templada, agua termal, bañera termal y Starlink gratis. A 3 cuadras del lago.",
         "url": "https://cabanas-rio-hondo.vercel.app/",
         "telephone": "+5493813009166",

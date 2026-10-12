@@ -68,11 +68,14 @@ const I18N = {
         lang_btn: "EN",
         bk_eyebrow: "Reservá",
         bk_title: "Reservá directo, sin vueltas",
-        bk_checkin: "Llegada",
-        bk_checkout: "Salida",
-        bk_guests: "Huéspedes",
-        bk_guest_one: "persona",
-        bk_guest_many: "personas",
+        bk_checkin: "Llegada\u00A0\u00A0\u00A0Check-in 12 hs",
+        bk_checkout: "Salida\u00A0\u00A0\u00A0Check-out 10 hs",
+        bk_adults: "Adultos",
+        bk_minors: "Menores",
+        bk_adult_one: "adulto",
+        bk_adult_many: "adultos",
+        bk_minor_one: "menor",
+        bk_minor_many: "menores",
         bk_night_one: "noche",
         bk_night_many: "noches",
         bk_submit: "Continuar en WhatsApp",
@@ -134,11 +137,14 @@ const I18N = {
         lang_btn: "ES",
         bk_eyebrow: "Book now",
         bk_title: "Book direct, no middlemen",
-        bk_checkin: "Check-in",
-        bk_checkout: "Check-out",
-        bk_guests: "Guests",
-        bk_guest_one: "guest",
-        bk_guest_many: "guests",
+        bk_checkin: "Check-in\u00A0\u00A0\u00A0from 12 pm",
+        bk_checkout: "Check-out\u00A0\u00A0\u00A0until 10 am",
+        bk_adults: "Adults",
+        bk_minors: "Children",
+        bk_adult_one: "adult",
+        bk_adult_many: "adults",
+        bk_minor_one: "child",
+        bk_minor_many: "children",
         bk_night_one: "night",
         bk_night_many: "nights",
         bk_submit: "Continue on WhatsApp",
@@ -313,10 +319,15 @@ function render(c) {
     }
     waNameGlobal = b.short_name || b.name || '';
 
-    document.title = `${b.name || ''} | ${b.category || ''}`;
-    setMeta('description', 'meta-description', b.description || '');
-    setMeta('og:title', 'og-title', `${b.name || ''} | ${b.category || ''}`);
-    setMeta('og:description', 'og-description', b.description || '');
+    const seo = lc.seo || {};
+    const seoTitle = seo.title || `${b.name || ''} | ${b.category || ''}`;
+    const seoDesc = seo.description || b.description || '';
+    document.title = seoTitle;
+    setMeta('description', 'meta-description', seoDesc);
+    setMeta('og:title', 'og-title', seo.og_title || seoTitle);
+    setMeta('og:description', 'og-description', seo.og_description || seoDesc);
+    setMeta('twitter:title', 'twitter-title', seo.og_title || seoTitle);
+    setMeta('twitter:description', 'twitter-description', seo.og_description || seoDesc);
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink && !canonicalLink.href) {
         canonicalLink.href = window.location.origin + window.location.pathname;
@@ -520,7 +531,7 @@ function render(c) {
     const highlights = loc.highlights || [];
     const highlightsEl = el('loc-highlights');
     if (highlightsEl) {
-        highlightsEl.innerHTML = highlights.length ? `<h4 style="font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:10px;">${t('loc_highlights_title')}</h4>` + highlights.map(h =>
+        highlightsEl.innerHTML = highlights.length ? `<h3 style="font-family:'IBM Plex Mono',monospace;font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:10px;">${t('loc_highlights_title')}</h3>` + highlights.map(h =>
             `<div class="loc-highlight">${ICONS[h.icon] ? ICONS[h.icon] : ''}<span>${escapeHtml(h.text)}</span></div>`
         ).join('') : '';
     }
@@ -612,24 +623,29 @@ function render(c) {
             el('booking-title').textContent = t('bk_title');
             el('bk-label-checkin').textContent = t('bk_checkin');
             el('bk-label-checkout').textContent = t('bk_checkout');
-            el('bk-label-guests').textContent = t('bk_guests');
+            el('bk-label-adults').textContent = t('bk_adults');
+            el('bk-label-minors').textContent = t('bk_minors');
             el('bk-submit').textContent = t('bk_submit');
             el('bk-note').textContent = t('bk_note');
-            const sel = el('bk-guests');
-            const prevVal = sel.value;
-            if (!sel.options.length) {
-                for (let i = 1; i <= 9; i++) {
-                    const opt = document.createElement('option');
-                    opt.value = i;
-                    opt.textContent = i;
-                    sel.appendChild(opt);
+            // Dos selects: Adultos (1-9 + '+9', default 2) y Menores (0-9 + '+9', default 0)
+            const fillSelect = (sel, start, end, def) => {
+                const prevVal = sel.value;
+                if (!sel.options.length) {
+                    for (let i = start; i <= end; i++) {
+                        const opt = document.createElement('option');
+                        opt.value = i;
+                        opt.textContent = i;
+                        sel.appendChild(opt);
+                    }
+                    const optPlus = document.createElement('option');
+                    optPlus.value = String(end + 1);
+                    optPlus.textContent = '+' + end;
+                    sel.appendChild(optPlus);
                 }
-                const optPlus = document.createElement('option');
-                optPlus.value = '10';
-                optPlus.textContent = '+9';
-                sel.appendChild(optPlus);
-            }
-            sel.value = prevVal || '2';
+                sel.value = prevVal || String(def);
+            };
+            fillSelect(el('bk-adults'), 1, 9, 2);
+            fillSelect(el('bk-minors'), 0, 9, 0);
             const isoToday = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
             const now = new Date();
             el('bk-checkin').min = isoToday(now);
@@ -758,8 +774,10 @@ function initBookingForm() {
         if (!waBase || waBase === '#') return;
         const ciV = el('bk-checkin').value;
         const coV = el('bk-checkout').value;
-        const guestsRaw = parseInt(el('bk-guests').value, 10) || 2;
-        const guests = guestsRaw >= 10 ? '+9' : String(guestsRaw);
+        const adultsRaw = parseInt(el('bk-adults').value, 10) || 1;
+        const minorsRaw = parseInt(el('bk-minors').value, 10) || 0;
+        const adults = adultsRaw >= 10 ? '+9' : (adultsRaw < 1 ? '1' : String(adultsRaw));
+        const minors = minorsRaw >= 10 ? '+9' : String(minorsRaw);
         if (!ciV || !coV) {
             errEl.textContent = t('bk_error_missing');
             errEl.hidden = false;
@@ -783,9 +801,11 @@ function initBookingForm() {
         const nights = Math.round((co - ci) / 86400000);
         const fmt = d => `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
         const nWord = nights === 1 ? t('bk_night_one') : t('bk_night_many');
+        const aWord = adults === '+9' || adultsRaw > 1 ? t('bk_adult_many') : t('bk_adult_one');
+        const mWord = minors === '+9' || minorsRaw > 1 ? t('bk_minor_many') : t('bk_minor_one');
         const msg = currentLang === 'en'
-            ? `Hi ${waNameGlobal}! I'd like to book from ${fmt(ci)} to ${fmt(co)} (${nights} ${nWord}) for ${guests} ${guests === '+9' ? 'guests' : (guestsRaw === 1 ? t('bk_guest_one') : t('bk_guest_many'))}. Is it available?`
-            : `Hola ${waNameGlobal}! Quiero reservar del ${fmt(ci)} al ${fmt(co)} (${nights} ${nWord}) para ${guests} ${guestsRaw === 1 ? t('bk_guest_one') : t('bk_guest_many')}. ¿Hay disponibilidad?`;
+            ? `Hi ${waNameGlobal}! I'd like to book from ${fmt(ci)} to ${fmt(co)} (${nights} ${nWord}) for ${adults} ${aWord} and ${minors} ${mWord}. Is it available?`
+            : `Hola ${waNameGlobal}! Quiero reservar del ${fmt(ci)} al ${fmt(co)} (${nights} ${nWord}) para ${adults} ${aWord} y ${minors} ${mWord}. ¿Hay disponibilidad?`;
         window.open(`${waBase}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
     });
 }
