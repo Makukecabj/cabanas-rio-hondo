@@ -515,7 +515,7 @@ function render(c) {
     const locTitleSuffix = isCoast ? (currentLang === 'en' ? ', steps from the beach' : ', a metros de las playas') : (currentLang === 'en' ? ', close to everything' : ', cerca de todo');
     el('loc-eyebrow').textContent = t('loc_eyebrow');
     el('loc-title').textContent = `${loc.district || loc.city || ''}${locTitleSuffix}`.trim();
-    el('loc-address').textContent = [loc.address, loc.city].filter(Boolean).join(', ') + (loc.province ? ' - ' + loc.province : '');
+    el('loc-address').textContent = [loc.address, [loc.city, loc.province].filter(Boolean).join(', ')].filter(Boolean).join(' - ');
     el('loc-description').textContent = loc.description || '';
     const highlights = loc.highlights || [];
     const highlightsEl = el('loc-highlights');
