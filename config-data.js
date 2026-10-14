@@ -549,19 +549,19 @@ window.__CONFIG = {
     "@graph": [
       {
         "@type": "LodgingBusiness",
-        "@id": "https://cabanas-rio-hondo.vercel.app/#lodging",
+        "@id": "https://www.cabañasriohondo.com.ar/#lodging",
         "name": "Cabañas Río Hondo",
         "alternateName": "Cabañas en Termas de Río Hondo",
         "description": "Complejo termal de 4 cabañas en Termas de Río Hondo, con pileta de agua templada, agua termal, bañera termal y Starlink gratis. A 3 cuadras del lago.",
-        "url": "https://cabanas-rio-hondo.vercel.app/",
+        "url": "https://www.cabañasriohondo.com.ar/",
         "telephone": "+5493813009166",
         "image": [
-          "https://cabanas-rio-hondo.vercel.app/fotos/portada.webp",
-          "https://cabanas-rio-hondo.vercel.app/fotos/galeria-01.webp",
-          "https://cabanas-rio-hondo.vercel.app/fotos/galeria-05.webp",
-          "https://cabanas-rio-hondo.vercel.app/fotos/galeria-09.webp"
+          "https://www.cabañasriohondo.com.ar/fotos/portada.webp",
+          "https://www.cabañasriohondo.com.ar/fotos/galeria-01.webp",
+          "https://www.cabañasriohondo.com.ar/fotos/galeria-05.webp",
+          "https://www.cabañasriohondo.com.ar/fotos/galeria-09.webp"
         ],
-        "logo": "https://cabanas-rio-hondo.vercel.app/fotos/Logo-direccionweb.jpeg",
+        "logo": "https://www.cabañasriohondo.com.ar/fotos/Logo-direccionweb.jpeg",
         "sameAs": [
           "https://www.google.com/maps/place/Caba%C3%B1as+R%C3%ADo+Hondo/@-27.5385363,-64.8663391,17z/data=!3m1!4b1!4m9!3m8!1s0x94236fa59726b8b1:0x4a6b296bcb5cc215!5m2!4m1!1i2!8m2!3d-27.5385363!4d-64.8663391!16s%2Fg%2F11c7w748tw!18m1!1e1"
         ],
@@ -650,17 +650,17 @@ window.__CONFIG = {
       },
       {
         "@type": "WebSite",
-        "@id": "https://cabanas-rio-hondo.vercel.app/#website",
-        "url": "https://cabanas-rio-hondo.vercel.app/",
+        "@id": "https://www.cabañasriohondo.com.ar/#website",
+        "url": "https://www.cabañasriohondo.com.ar/",
         "name": "Cabañas Río Hondo",
         "inLanguage": "es-AR",
         "publisher": {
-          "@id": "https://cabanas-rio-hondo.vercel.app/#lodging"
+          "@id": "https://www.cabañasriohondo.com.ar/#lodging"
         }
       },
       {
         "@type": "FAQPage",
-        "@id": "https://cabanas-rio-hondo.vercel.app/#faq",
+        "@id": "https://www.cabañasriohondo.com.ar/#faq",
         "mainEntity": [
           {
             "@type": "Question",
